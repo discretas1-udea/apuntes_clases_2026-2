@@ -15,23 +15,29 @@ A continuación se describe el cronograma del curso por clases.
 
 ## Tema 2 - Lógica cuantificacional
 
-| Semana | Clase | Tema                               | Notas de clase                            | Observaciones|
-|--------|-------|------------------------------------|-------------------------------------------|--------------|
-|        |       |      
+| Semana | Clase |Fecha | Tema                               | Notas de clase                            | Contenido   |Observaciones|
+|--------|-------|------|------------------------------------|-------------------------------------------|-------------|-------------|
+|        |       |      |                                    |                                           |             |             |
 
 
 ## Tema 3 - Conjuntos y Relaciones
 
-| Semana | Clase | Tema                               | Notas de clase                            | Observaciones|
-|--------|-------|------------------------------------|-------------------------------------------|--------------|
-|        |       |                                    |  
-
+| Semana | Clase |Fecha | Tema                               | Notas de clase                            | Contenido   |Observaciones|
+|--------|-------|------|------------------------------------|-------------------------------------------|-------------|-------------|
+|        |       |      |                                    |                                           |             |             |
     
 ## Tema 4 - Algebra de Boole
 
 
-| Semana | Clase | Tema                               | Notas de clase                            | Observaciones|
-|--------|-------|------------------------------------|-------------------------------------------|--------------|
-|        |       |                                    |  
+| Semana | Clase |Fecha | Tema                               | Notas de clase                            | Contenido   |Observaciones|
+|--------|-------|------|------------------------------------|-------------------------------------------|-------------|-------------|
+|        |       |      |                                    |                                           |             |             |
 
-### Referencias
+## Referencias
+
+| Recurso | Descripción | Enlace |
+|---|---|---|
+| Repositorio | Repositorio con el contenido del curso a lo largo de los semestres en que se ha dictado. | [GitHub](https://github.com/orgs/discretas1-udea/repositories) |
+| Apuntes a mano | Apuntes de cada una de las clases a lo largo del semestre. | [GitHub](https://github.com/discretas1-udea/apuntes_clases_2026-2) |
+| Notas de clase | Notas de clase del curso de Matemáticas Discretas 1 (2026/2). | [Sitio del curso](https://discretas1-udea.github.io/discretas1-udea-20262/) |
+| Acceso a Moodle | Aula virtual del curso en Ude@. | [Moodle](https://udearroba.udea.edu.co/internos/course/view.php?id=26411) |
