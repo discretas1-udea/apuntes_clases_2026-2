@@ -1,2 +1,4 @@
-# apuntes_clases_2026-2
-Apuntes clase 2026/2
+# Matematicas Discrestas 1
+
+Apuntes clase de Discretas 1
+
