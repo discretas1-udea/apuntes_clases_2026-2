@@ -1,24 +1,37 @@
-# Clase 1 - Presentación del curso
+# Clase 1 — Presentación del curso
 
-* **Fecha**: 04/08/2026
-* **Apuntes**: Apuntes clase 1 [[pdf]](clase01_04-08-2026.pdf)
+> **Fecha**: 04/08/2026 · **Modalidad**: Virtual asincrónica (Ude@) · **Apuntes**: [PDF](clase01_04-08-2026.pdf)
 
-## Resumen 
+## Objetivos de la clase
 
-Se presento la información general relacionada con el curso de **Matematicas Discretas 1** y la evaluacion de este.
+- Presentar la estructura general del curso, sus recursos y canales de comunicación.
+- Establecer el esquema de evaluación y las expectativas de trabajo en equipo.
+- Definir los pendientes administrativos previos al inicio del contenido teórico.
+
+## Resumen
+
+Se presentó la información general relacionada con el curso de **Matemáticas Discretas 1** y su esquema de evaluación.
+
+## Agenda
+
+1. Sobre el curso (información general y medios de comunicación)
+2. Repositorio del curso
+3. Notas de clase
+4. Pendientes
+5. Tarea
 
 ## Datos del docente
 
-* **Nombre**: Henry Arcila
-* **Email**: henry.arcila@udea.edu.co
-* **Horario del curso**: Martes y jueves, 8:00 - 10:00 a.m.
+| Campo | Detalle |
+|---|---|
+| Nombre | Henry Arcila |
+| Email | henry.arcila@udea.edu.co |
+| Horario | Martes y jueves, 8:00 - 10:00 a.m. |
 
 ## Medios de comunicación
 
 1. Foro de Ude@
 2. Correo electrónico (para casos de urgencia)
-
-## Recursos del curso
 
 ## Recursos del curso
 
@@ -39,18 +52,29 @@ La evaluación se realiza en 5 momentos con ponderación uniforme:
 | Examen Unidad I — Lógica cuantificacional | 20% | Predicados, cuantificadores, validez |
 | Examen Unidad II | 20% | Conjuntos, relaciones, orden, retículas |
 | Examen Unidad III | 20% | Booleanas, tablas, circuitos, sistemas numéricos |
-| Presentación Trabajo 1 | 20% | Actividades de seguimiento |
+| Seguimiento | 20% | Quizes y actividades de seguimiento en la plataforma |
 
-* 4 parciales (80%) + seguimiento (20%)
-* Los parciales serán presenciales; las fechas se definirán en la próxima clase.
-* Los quizzes de seguimiento se realizarán en Moodle (se toma la nota más alta).
+- 4 parciales (80%) + seguimiento (20%)
+- Los parciales serán presenciales; las fechas se definirán en la próxima clase.
+- Los quizzes de seguimiento se realizarán en Moodle (se toma la nota más alta).
 
 ## Pendientes
 
-- [ ] Subir los apuntes de esta clase al repositorio
+### Docente
+- [x] Subir los apuntes de esta clase al repositorio
 - [ ] Actualizar calendario (2026/2)
-- [ ] Actualizar lista de contactos enviando formulario (nombre, seccional, residencia, email, WhatsApp) — para formación de manadas de estudio
+- [ ] Enviar formulario de contacto (nombre, seccional, residencia, email, WhatsApp) — para formación de grupos de estudio
 - [ ] Definir fechas de parciales (próxima clase)
 - [ ] Actualizar cronograma al semestre 2026/2
 - [ ] Enviar dos videos de motivación
 - [ ] Publicar en el foro la primera tarea con instrucciones
+
+### Estudiantes
+- [ ] Explorar el repositorio y la página del curso
+- [ ] Ver los dos videos de motivación
+- [ ] Completar el formulario de contacto
+- [ ] Estar pendientes del foro para la primera tarea
+
+## Próxima clase
+
+Se definirán las fechas de los parciales y se dará inicio al contenido teórico.
