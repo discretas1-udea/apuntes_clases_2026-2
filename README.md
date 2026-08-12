@@ -9,8 +9,8 @@ A continuación se describe el cronograma del curso por clases.
 
 | Semana | Clase | Fecha | Tema | Notas de clase | Contenido | Observaciones |
 |---|---|---|---|---|---|---|
-| 1 | 1 | 04/08/2026 | Introducción al curso | (pendiente) | Presentación del curso y evaluación | |
-| | 2 | 06/08/2026 | Lógica proposicional - Parte 1 | (pendiente) | Lógica proposicional, tipos de enunciados, proposiciones, tipos de proposiciones | |
+| 1 | 1 | 04/08/2026 | Introducción al curso | Recursos [[link]](clase-01/) Manuscrito [[pdf]](clase-01/clase01_04-08-2026.pdf) | Presentación del curso y evaluación | Se presentaron los recursos del curso, el temario general y la evaluación. |
+| | 2 | 06/08/2026 | Lógica proposicional - Parte 1 | Recursos [[link]](clase-02/) Manuscrito [[pdf]](clase-02/apuntes_clase2_annotated.pdf) | Lógica proposicional, tipos de enunciados, proposiciones, tipos de proposiciones | Para profundizar mas sobre los fundamentos de logica, revise las notas de clase [[teoria]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase1/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase1_autoevaluacion/) |
 | 2 | 3 | 11/08/2026 | Lógica proposicional - Parte 2 | (pendiente) | Operadores lógicos, reglas de prioridad | |
 | | 4 | 13/08/2026 | Lógica proposicional - Parte 3 | (pendiente) | Tablas de verdad | |
 | 3 | 5 | 18/08/2026 | Lógica proposicional - Parte 4 | (pendiente) | Tipos de proposiciones (tautología, contradicción, contingencia), equivalencia lógica, condicionales y variantes, suficiencia/necesidad | |

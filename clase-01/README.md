@@ -1,3 +1,6 @@
+![Built with AI](https://img.shields.io/badge/Built%20with-AI-blue.svg)
+
+
 # Clase 1 — Presentación del curso
 
 > **Fecha**: 04/08/2026 · **Modalidad**: Virtual asincrónica (Ude@) · **Apuntes**: [PDF](clase01_04-08-2026.pdf)
@@ -62,9 +65,9 @@ La evaluación se realiza en 5 momentos con ponderación uniforme:
 
 ### Docente
 - [x] Subir los apuntes de esta clase al repositorio
-- [ ] Actualizar calendario (2026/2)
-- [ ] Enviar formulario de contacto (nombre, seccional, residencia, email, WhatsApp) — para formación de grupos de estudio
-- [ ] Definir fechas de parciales (próxima clase)
+- [x] Actualizar calendario (2026/2)
+- [x] Enviar formulario de contacto (nombre, seccional, residencia, email, WhatsApp) — para formación de grupos de estudio
+- [x] Definir fechas de parciales (próxima clase)
 - [ ] Actualizar cronograma al semestre 2026/2
 - [ ] Enviar dos videos de motivación
 - [ ] Publicar en el foro la primera tarea con instrucciones
