@@ -13,6 +13,8 @@ A continuación se describe el cronograma del curso por clases.
 | | 2 | 06/08/2026 | Lógica proposicional - Parte 1 | Recursos [[link]](clase-02/) Manuscrito [[pdf]](clase-02/apuntes_clase2_annotated.pdf) | Lógica proposicional, tipos de enunciados, proposiciones, tipos de proposiciones | Para profundizar mas sobre los fundamentos de logica, revise las notas de clase [[teoria]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase1/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase1_autoevaluacion/) |
 | 2 | 3 | 11/08/2026 | Lógica proposicional - Parte 2 | Recursos [[link]](clase-03/) Manuscrito [[pdf]](clase-03/apuntes_clase3_annotated.pdf) | Operadores lógicos, reglas de prioridad (Parte 1) | Para profundizar mas sobre los fundamentos de logica, revise las notas de clase a partir de la sección **Parte II — Axiomas de Verdad** [[teoria]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase1/#parte-ii--axiomas-de-verdad) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase1_autoevaluacion/) |
 | | 4 | 13/08/2026 | Lógica proposicional - Parte 3 | Recursos [[link]](clase-03/) Manuscrito [[pdf]](clase-03/apuntes_clase3_annotated.pdf) | Operadores lógicos, reglas de prioridad (Parte 2) |Para profundizar mas sobre los fundamentos de logica, revise las notas de clase a partir de la sección **Parte II — Axiomas de Verdad** [[teoria]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase1/#parte-ii--axiomas-de-verdad) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase1_autoevaluacion/) |
+
+<!--
 | 3 | 5 | 18/08/2026 | Lógica proposicional - Parte 4 | (pendiente) | (Tabla de verdad) Tipos de proposiciones (tautología, contradicción, contingencia), equivalencia lógica, condicionales y variantes, ~~suficiencia/necesidad~~ | |
 | | 6 | 20/08/2026 | Lógica proposicional - Parte 5 | (pendiente) | Enfoque axiomático (equivalencias, simplificaciones) | |
 | 4 | 7 | 25/08/2026 | Lógica proposicional - Parte 6 | (pendiente) | Argumentos lógicos, validez, demostración por tablas de verdad | |
@@ -61,6 +63,9 @@ A continuación se describe el cronograma del curso por clases.
 | | --- | 19/11/2026 | --- | --- | Por definir | Sesión libre — uso por definir |
 | 17 | --- | 24/11/2026 | --- | --- | Por definir | Sesión libre — uso por definir |
 | | --- | 26/11/2026 | --- | --- | Por definir | Sesión libre — uso por definir |
+
+
+-->
 
 
 ## Referencias
