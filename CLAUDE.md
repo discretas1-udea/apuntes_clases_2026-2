@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is not a software project — it's the class-notes log ("bitácora") for the course **Matemáticas Discretas 1**, Universidad de Antioquia (Ude@), semester 2026-2. There is no code to build, lint, or test. The only artifact type produced here is Markdown (`README.md`) plus the original class materials (PDF slides/handwritten notes, PPTX, Xournal++ `.xopp` files, and images) checked in as sibling files.
 
-Each `clase-0N/` directory holds one class session's materials and, once finalized, a `README.md` summarizing it. `clase-01` through `clase-03` have their `README.md` written; `clase-04` and `clase-05` currently contain only raw materials (PDF/PPTX/`.xopp`) and are pending write-up; `clase-06` is an empty directory with no materials yet; `clase-07` currently has only a `.pptx` file.
+Each `clase-0N/` directory holds one class session's materials and, once finalized, a `README.md` summarizing it. `clase-01` through `clase-05` have their `README.md` written; `clase-06` currently contains only raw materials (`.pptx`) and is pending write-up; `clase-07` does not exist yet.
 
 The root `README.md` is the course syllabus/schedule (cronograma) — a table of all sessions with links into each `clase-0N/` directory. When a new `clase-0N/README.md` is finalized, the corresponding row in the root table should be updated (notes link, content summary, observations).
 
