@@ -132,33 +132,107 @@ Al nombrar cada regla se debe indicar si se aplica para el operador `∧` o `∨
 
 ### 6. Aplicación del enfoque axiomático: ejemplos de repaso 1 a 3
 
-Estos tres ejercicios se resolvieron sin contratiempos en la sesión del 25/08:
+Estos tres ejercicios se resolvieron sin contratiempos en la sesión del 25/08.
 
-- **Ejemplo 1** (equivalencia): demostrar que `¬((¬p ∨ ¬q) ∨ ¬q) ≡ p ∧ q`. Se resolvió con asociatividad, idempotencia, Ley de De Morgan y doble negación, partiendo del lado izquierdo (el más cargado).
-- **Ejemplo 2** (simplificación): simplificar `(p ∨ ¬q) ∧ (¬p ∨ ¬q)`. Se factorizó `¬q` mediante distributividad (sentido derecha-a-izquierda), y con complemento e identidad se llegó a `¬q` como resultado final.
-- **Ejemplo 3** (implicaciones anidadas): demostrar que `p → (q → r) ≡ (p ∧ q) → r`. La estrategia fue eliminar todas las flechas usando la definición de implicación (`P → Q ≡ ¬P ∨ Q`), reagrupar con asociatividad, aplicar Ley de De Morgan y reconvertir a la forma de implicación al final.
+**Ejemplo 1** — Demostrar que `¬((¬p ∨ ¬q) ∨ ¬q) ≡ p ∧ q`:
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `¬((¬p ∨ ¬q) ∨ ¬q)` | Lado izquierdo |
+| 2 | `¬(¬p ∨ (¬q ∨ ¬q))` | Asociatividad para el ∨ en (1) |
+| 3 | `¬(¬p ∨ ¬q)` | Idempotencia para el ∨ en (2) |
+| 4 | `¬(¬p) ∧ ¬(¬q)` | Ley de Morgan para el ∨ en (3) |
+| 5 | `∴ p ∧ q` | Doble negación en (4) |
+
+**Ejemplo 2** — Simplificar `(p ∨ ¬q) ∧ (¬p ∨ ¬q)`:
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `(p ∨ ¬q) ∧ (¬p ∨ ¬q)` | Expresión original |
+| 2 | `¬q ∨ (p ∧ ¬p)` | Distributividad para el ∨ (D→I, factorización) en (1) |
+| 3 | `¬q ∨ F` | Complemento para el ∧ en (2) |
+| 4 | `∴ ¬q` | Identidad para el ∨ en (3) |
+
+**Ejemplo 3** — Demostrar que `p → (q → r) ≡ (p ∧ q) → r`:
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `p → (q → r)` | Lado izquierdo |
+| 2 | `¬p ∨ (q → r)` | Implicación en (1) |
+| 3 | `¬p ∨ (¬q ∨ r)` | Implicación en (2) |
+| 4 | `(¬p ∨ ¬q) ∨ r` | Asociatividad para el ∨ en (3) |
+| 5 | `¬(p ∧ q) ∨ r` | Ley de Morgan para el ∧ en (4) |
+| 6 | `∴ (p ∧ q) → r` | Implicación en (5) |
 
 ### 7. El ejemplo 4: dos intentos fallidos y la corrección enviada aparte
 
 Ejercicio: demostrar que `[(p → q) ∧ (q → r)] → (p → r)` es una tautología.
 
-El primer intento (25/08) se extendió sin llegar a una simplificación clara y quedó levantado para la sesión siguiente. El segundo intento (27/08, la "revancha") tampoco llegó a `Verdadero`: en la revisión se detectó que se había empleado una "regla" (`¬P ∨ Q ≡ ¬Q ∨ P`, llamada informalmente "contrarrecíproco") que **no existe** en la tabla oficial de equivalencias del curso — el profesor reconoció el error abiertamente ("suena a machete") y decidió no continuar el ejercicio en clase para no confundir, enviando la solución corregida en un archivo aparte ([`correccion_ejemplo4_annotated.pdf`](./correccion_ejemplo4_annotated.pdf)).
+El primer intento (25/08) se extendió sin llegar a una simplificación clara y quedó levantado para la sesión siguiente. El segundo intento (27/08, la "revancha") tampoco llegó a `Verdadero`: en la revisión se detectó que se había empleado una "regla" (`¬P ∨ Q ≡ ¬Q ∨ P`, llamada informalmente "contrarrecíproco") que **no existe** en la tabla oficial de equivalencias del curso — el profesor reconoció el error abiertamente ("suena a machete") y decidió no continuar el ejercicio en clase para no confundir, enviando la solución corregida en un archivo aparte.
 
-La solución corregida sigue el camino correcto —definición de implicación, Ley de De Morgan, doble negación, asociatividad, distributividad, conmutatividad, complemento, dominación e identidad— en 19 pasos, llegando efectivamente a `Verdadero`, confirmando que la expresión sí es una tautología.
+La solución corregida ([`correccion_ejemplo4_annotated.pdf`](./correccion_ejemplo4_annotated.pdf)) sigue el camino correcto en 19 pasos, llegando efectivamente a `Verdadero`, confirmando que la expresión sí es una tautología:
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `[(p → q) ∧ (q → r)] → (p → r)` | Lado izquierdo |
+| 2 | `¬[(p → q) ∧ (q → r)] ∨ (p → r)` | Implicación en (1) |
+| 3 | `[¬(p → q) ∨ ¬(q → r)] ∨ (p → r)` | Ley de Morgan para el ∧ en (2) |
+| 4 | `¬(p → q) ∨ [¬(q → r) ∨ (p → r)]` | Asociatividad para el ∨ en (3) |
+| 5 | `¬(p → q) ∨ [¬(¬q ∨ r) ∨ (¬p ∨ r)]` | Implicación en (4) |
+| 6 | `¬(p → q) ∨ [(¬¬q ∧ ¬r) ∨ (¬p ∨ r)]` | Ley de Morgan para el ∨ en (5) |
+| 7 | `¬(p → q) ∨ [(q ∧ ¬r) ∨ (¬p ∨ r)]` | Doble negación en (6) |
+| 8 | `¬(p → q) ∨ [(q ∨ (¬p ∨ r)) ∧ (¬r ∨ (¬p ∨ r))]` | Distributividad para el ∨ en (7)* |
+| 9 | `¬(p → q) ∨ [(q ∨ (¬p ∨ r)) ∧ (¬p ∨ ¬r ∨ r)]` | Conmutatividad para el ∨ en (8) |
+| 10 | `¬(p → q) ∨ [(q ∨ (¬p ∨ r)) ∧ (¬p ∨ (¬r ∨ r))]` | Asociatividad para el ∨ en (9) |
+| 11 | `¬(p → q) ∨ [(q ∨ (¬p ∨ r)) ∧ (¬p ∨ V)]` | Complemento para el ∨ en (10) |
+| 12 | `¬(p → q) ∨ [(q ∨ ¬p ∨ r) ∧ V]` | Dominación para el ∨ en (11) |
+| 13 | `¬(p → q) ∨ [q ∨ (¬p ∨ r)]` | Identidad para el ∧ en (12) |
+| 14 | `¬(¬p ∨ q) ∨ [q ∨ (¬p ∨ r)]` | Implicación en (13) |
+| 15 | `¬(¬p ∨ q) ∨ [¬p ∨ q ∨ r]` | Conmutatividad para el ∨ en (14) |
+| 16 | `¬(¬p ∨ q) ∨ [(¬p ∨ q) ∨ r]` | Asociatividad para el ∨ en (15) |
+| 17 | `[¬(¬p ∨ q) ∨ (¬p ∨ q)] ∨ r` | Asociatividad para el ∨ en (16) |
+| 18 | `V ∨ r` | Complemento para el ∨ en (17) |
+| 19 | `∴ V` | Dominación para el ∨ en (18) |
+
+\* *En el manuscrito de la corrección, la razón del paso 8 cita el paso (4) en vez del (7); se transcribe tal como aparece en el archivo original, aunque por la secuencia lógica la distributividad se aplica sobre la expresión del paso (7).*
 
 ### 8. El ejemplo 5: un enunciado con error de transcripción
 
-El enunciado original del ejercicio (tomado del libro fuente) era `((p → q) ∧ ¬q) → ¬p` — la forma clásica de *modus tollens*, que es una tautología. Sin embargo, al transcribirlo se introdujo un error y lo que efectivamente se trabajó y explicó en clase fue `(¬p ∧ (p → q)) → ¬q`, una expresión distinta.
+El enunciado original del ejercicio (tomado del libro fuente) era `((p → q) ∧ ¬q) → ¬p` — la forma clásica de *modus tollens*, que es una tautología. Sin embargo, al transcribirlo se introdujo un error y lo que efectivamente se trabajó y explicó en clase fue `(¬p ∧ (p → q)) → ¬q`, una expresión distinta. El profesor aclaró en clase que el procedimiento era correcto — el error estaba en el enunciado transcrito, no en la demostración — y que en el parcial evitará este tipo de inconsistencias.
 
-Aplicando correctamente la tabla de identidades (definición de implicación, identidad, distributividad, dominación) a esta última expresión se llega a `¬P → ¬Q`, no a `Verdadero`; es decir, tal como quedó enunciada, la expresión es una **contingencia**, no una tautología. El profesor aclaró en clase que el procedimiento era correcto — el error estaba en el enunciado transcrito, no en la demostración — y que en el parcial evitará este tipo de inconsistencias.
+**Forma explicada en clase** — aplicando la tabla de identidades a `(¬p ∧ (p → q)) → ¬q` se llega a `¬P → ¬Q`, no a `Verdadero`; es decir, tal como quedó enunciada, la expresión es una **contingencia**, no una tautología:
 
-De las dos formas de resolver esta versión (la larga, con la aclaración en vivo, y una segunda forma más corta vía absorción), solo la primera se explicó en clase; la segunda quedó para que los estudiantes la analicen por su cuenta.
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `(¬p ∧ (p → q)) → ¬q` | Lado izquierdo |
+| 2 | `(¬p ∧ (¬p ∨ q)) → ¬q` | Implicación en (1) |
+| 3 | `((¬p ∨ F) ∧ (¬p ∨ q)) → ¬q` | Identidad para el ∨ en (2) |
+| 4 | `(¬p ∨ (F ∧ q)) → ¬q` | Distributividad para el ∨ (D→I, factorización) en (3) |
+| 5 | `(¬p ∨ F) → ¬q` | Dominación para el ∧ en (4) |
+| 6 | `∴ ¬p → ¬q` | Identidad para el ∨ en (5) |
+
+**Forma más corta** (no explicada en clase — queda para que los estudiantes la analicen por su cuenta), llegando al mismo resultado por absorción:
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `(¬p ∧ (p → q)) → ¬q` | Lado izquierdo |
+| 2 | `(¬p ∧ (¬p ∨ q)) → ¬q` | Implicación en (1) |
+| 3 | `∴ ¬p → ¬q` | Absorción para el ∧ en (2) |
 
 ### 9. El ejemplo 6: verdadero o falso
 
 Ejercicio: evaluar si la negación de "Si Susana es la madre de Luis, entonces Ali es su primo" es "Si Ali no es primo de Luis, entonces Susana no es la madre de Luis".
 
-Traduciendo a lógica proposicional (`P`: Susana es la madre de Luis; `Q`: Ali es primo de Luis), la pregunta es si `¬(P → Q) ≡ ¬Q → ¬P`. Aplicando definición de implicación, Ley de De Morgan y doble negación al lado izquierdo se llega a `P ∧ ¬Q`, que no puede transformarse en `¬Q → ¬P` mediante las reglas de la tabla. Por lo tanto, la afirmación es **falsa**: la negación de un condicional no es su contrarrecíproco.
+Traduciendo a lógica proposicional (`P`: Susana es la madre de Luis; `Q`: Ali es primo de Luis), la pregunta es si `¬(P → Q) ≡ ¬Q → ¬P`:
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `¬(p → q)` | Lado izquierdo |
+| 2 | `¬(¬p ∨ q)` | Implicación en (1) |
+| 3 | `¬(¬p) ∧ ¬q` | Ley de Morgan para el ∨ en (2) |
+| 4 | `∴ p ∧ ¬q` | Doble negación en (3) |
+
+Como `p ∧ ¬q` no puede transformarse en `¬q → ¬p` mediante las reglas de la tabla (de hecho, `¬q → ¬p ≡ ¬(¬q) ∨ ¬p ≡ q ∨ ¬p`, una expresión distinta), la afirmación es **falsa**: la negación de un condicional no es su contrarrecíproco.
 
 Este resultado, además de resolver el ejercicio, sirvió como confirmación formal de que la "regla" usada por error en el segundo intento del ejemplo 4 (que trataba `¬P ∨ Q` como si fuera intercambiable con `¬Q ∨ P`) no tiene sustento en la tabla de equivalencias del curso.
 
