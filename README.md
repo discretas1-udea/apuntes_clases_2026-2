@@ -17,6 +17,43 @@ A continuación se describe el cronograma del curso por clases.
 | | 6 | 20/08/2026 | Lógica proposicional - Parte 5 | Recursos [[link]](clase-05/) Manuscrito [[pdf]](clase-05/apuntes_clase5_annotated.pdf) | Enfoque axiomático (equivalencias, simplificaciones) | Revise los ejemplos complementarios y evalue lo aprendido revisando las notas de clase [[teoria]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase4/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase4_autoevaluacion/) |
 | 4 | 7 | 25/08/2026 | Lógica proposicional - Parte 6 | Recursos [[link]](clase-05/) Manuscrito [[pdf]](clase-05/apuntes_clase5_annotated.pdf) Ejemplo 4 corregido [[pdf]](clase-05/correccion_ejemplo4_annotated.pdf) | Enfoque axiomático (equivalencias, simplificaciones) | Revise los ejemplos complementarios y evalue lo aprendido revisando las notas de clase [[teoria]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase4/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase4_autoevaluacion/) |
 |   | 8 | 27/08/2026 | Lógica proposicional - Parte 7 | Recursos [[link]](clase-06/) Manuscrito [[pdf]](clase-06/apuntes_clase6_annotated.pdf) | Argumentos lógicos, validez, demostración por tablas de verdad| Revise los ejemplos complementarios y evalue lo aprendido revisando las notas de clase [[teoria]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase5/) |
+| 5 | 9 | 01/09/2026 | Lógica proposicional - Parte 8 | Recursos [[link]](clase-06/) Manuscrito [[pdf]](clase-06/apuntes_clase6_annotated.pdf) | Demostración de validez empleando el enfoque axiomatico (Tabla de identidades logicas y reglas de inferencia) | Revise los ejemplos complementarios y evalue lo aprendido revisando las notas de clase [[teoria]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/clase5/) |
+
+El **parcial 1** sera sobre todas las clases de la tabla anterior.
+
+> [!Tip]
+> No se quede solo con las explicaciones dadas en clase, consulte los recursos adicionales y la bibliografia del curso para comprender lo que el profesor no explico de manera entendible.
+
+### Referencias
+
+A continuación se listan los recursos adicionales que pueden ser consultados para repasar para el parcial 1.
+
+1. **Notas de clase**: Tema 1: Logica proposicional [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod1/)
+2. **Libros**: [[link]](https://github.com/discretas1-udea/apuntes_clases/tree/main/libros/discretas)
+3. **Diapositivas originales del curso**:
+   * **Clase 1** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase1.pdf)
+   * **Clase 2** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase2.pdf)
+   * **Clase 3** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase3.pdf)
+   * **Clase 4** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase4.pdf)
+4. **Recursos para repasar**:
+   * **Formulas parcial 1**: [[formulas]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/formulas_parcial1.pdf)
+   * **Parciales viejos**: 
+     * **Semestre 2025/1**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial1_2025-1.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial1_2025-1_sol.pdf)
+     * **Semestre 2025/2**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial1_2025-2.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial1_2025-2_sol.pdf)
+     * **Semestre 2026/1**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial1_2026-1.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial1_2026-1_sol.pdf)
+   * **Talleres de repaso - Parcial 1**:
+     * **Taller 1**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller1/)
+     * **Taller 2**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller2/)
+     * **Taller 3**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller3/)
+  
+
+## Tema 2 - Lógica cuantificacional
+
+| Semana | Clase | Fecha | Tema | Notas de clase | Contenido | Observaciones |
+|---|---|---|---|---|---|---|
+| 5 | 10 | 03/09/2026 | Lógica cuantificacional - Parte 1 | Recursos [[link]](clase-07/) Manuscrito [[pdf]](clase-07/apuntes_clase7_annotated.pdf) | Conceptos: universo, variable, constantes, predicados | Revise los ejemplos complementarios y evalue lo aprendido revisando las notas de clase sobre los conceptos de Logica cuantificacional [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase6/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase6_autoevaluacion/)  |
+
+
 
 
 
