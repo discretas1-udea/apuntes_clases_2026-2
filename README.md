@@ -52,6 +52,8 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 | Semana | Clase | Fecha | Tema | Notas de clase | Contenido | Observaciones |
 |---|---|---|---|---|---|---|
 | 5 | 10 | 03/09/2026 | Lógica cuantificacional - Parte 1 | Recursos [[link]](clase-07/) Manuscrito [[pdf]](clase-07/apuntes_clase7_annotated.pdf) | Conceptos: universo, variable, constantes, predicados | Revise los ejemplos complementarios y evalue lo aprendido revisando las notas de clase sobre los conceptos de Logica cuantificacional [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase6/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase6_autoevaluacion/)  |
+| 6 | 11 | 08/09/2026 | Lógica cuantificacional - Parte 2 | Recursos [[link]](clase-07/) Manuscrito [[pdf]](clase-07/apuntes_clase7_annotated.pdf) | Función proposicional, cuantificadores, conjunto de verdad, expresiones compuestas, lenguaje natural vs formal | Revise los ejemplos complementarios y evalue lo aprendido revisando las notas de clase sobre los conceptos de Logica cuantificacional [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase6/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase6_autoevaluacion/) |
+|   | 12 | 10/09/2026 | Lógica cuantificacional - Parte 3 | Recursos [[link]](clase-07/) Manuscrito [[pdf]](clase-07/apuntes_clase7_annotated.pdf) | Refuerzo mediante ejemplos en clase | Revise los ejercicios resueltos en la sesión (zoológico, formas aristotélicas, dominios verdadero/falso) y las notas de clase [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase6/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase6_autoevaluacion/) |
 
 
 
@@ -119,3 +121,11 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 | Apuntes a mano | Apuntes de cada una de las clases a lo largo del semestre. | [GitHub](https://github.com/discretas1-udea/apuntes_clases_2026-2) |
 | Notas de clase | Notas de clase del curso de Matemáticas Discretas 1 (2026/2). | [Sitio del curso](https://discretas1-udea.github.io/discretas1-udea-20262/) |
 | Acceso a Moodle | Aula virtual del curso en Ude@. | [Moodle](https://udearroba.udea.edu.co/internos/course/view.php?id=26411) |
+
+## Enlaces de interes
+* https://discrete.openmathbooks.org/dmoi4/sec_logic-rules.html
+* https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/
+* https://logic-calculator.com/
+* https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
+* https://ada.educatic.unam.mx/course/view.php?id=91
+* https://cursos.virtual.uniandes.edu.co/pdf/curso.php?codigo=isis1104
