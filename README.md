@@ -129,3 +129,4 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 * https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-spring-2015/mit6_042js15_textbook.pdf
 * https://ada.educatic.unam.mx/course/view.php?id=91
 * https://cursos.virtual.uniandes.edu.co/pdf/curso.php?codigo=isis1104
+* https://blog.nekomath.com/
