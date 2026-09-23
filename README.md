@@ -24,6 +24,9 @@ El **parcial 1** sera sobre todas las clases de la tabla anterior.
 > [!Tip]
 > No se quede solo con las explicaciones dadas en clase, consulte los recursos adicionales y la bibliografia del curso para comprender lo que el profesor no explico de manera entendible.
 
+> [!Note]  
+> La solución del [parcial 1](parciales/parcial1/discretas1_parcial1_2026-2.pdf) puede ser consultada en el siguiente [[link]](parciales/parcial1/discretas1_parcial1_2026-2_sol.pdf)
+
 ### Referencias
 
 A continuación se listan los recursos adicionales que pueden ser consultados para repasar para el parcial 1.
