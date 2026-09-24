@@ -62,6 +62,27 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 | 8 | 15 | 22/09/2026 | Lógica cuantificacional - Parte 6 | Recursos [[link]](clase-09/) Manuscrito [[pdf]](clase-09/apuntes_clase9_annotated.pdf) | Cierre de ejercicios de traducción, repaso de lógica de primer orden, equivalencias cuantificacionales (leyes de De Morgan para cuantificadores, distributividad) | Revise los ejercicios resueltos en la sesión (traducción y negación de enunciados cuantificados) y las notas de clase [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase7/) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase7_autoevaluacion/) |
 |   | 16 | 24/09/2026 | Lógica cuantificacional - Parte 7 | Recursos [[link]](clase-09/) Manuscrito [[pdf]](clase-09/apuntes_clase9_annotated.pdf) | Negación de enunciados cuantificados (lenguaje natural y expresiones matemáticas), traducción de especificaciones de sistemas | Revise los ejercicios resueltos en la sesión y las equivalencias cuantificacionales en las notas de clase [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase8/#parte-iv--equivalencias-cuantificacionales) [[autoevaluacion]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase8_autoevaluacion/). Tarea: Ejemplo 6 (argumento de Lewis Carroll) |
 
+El **parcial 2** sera sobre todas las clases de la tabla anterior, hasta la del 01/10/2026.
+
+### Referencias
+
+A continuación se listan los recursos adicionales que pueden ser consultados para repasar para el parcial 2.
+
+1. **Notas de clase**: Tema 2: Logica cuantificacional [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/)
+2. **Libros**: [[link]](https://github.com/discretas1-udea/apuntes_clases/tree/main/libros/discretas)
+3. **Diapositivas originales del curso**:
+   * **Clase 5** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase5.pdf)
+   * **Clase 6** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase6.pdf)
+4. **Recursos para repasar**:
+   * **Formulas parcial 2**: [[formulas]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/formulas_parcial2.pdf)
+   * **Parciales viejos**: 
+     * **Semestre 2025/1**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial2_2025-1.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial2_2025-1_sol.pdf)
+     * **Semestre 2025/2**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial2_2025-2.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial2_2025-2_sol.pdf)
+     * **Semestre 2026/1**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial2_2026-1.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial2_2026-1_sol.pdf)
+   * **Talleres de repaso - Parcial 2**:
+     * **Taller 4**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller4/)
+     * **Taller 5**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller5/)
+
 
 
 <!--
