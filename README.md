@@ -73,6 +73,7 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 3. **Diapositivas originales del curso**:
    * **Clase 5** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase5.pdf)
    * **Clase 6** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase6.pdf)
+   * **Clase 7** [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase7.pdf)
 4. **Recursos para repasar**:
    * **Formulas parcial 2**: [[formulas]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/formulas_parcial2.pdf)
    * **Parciales viejos**: 
