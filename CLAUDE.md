@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is not a software project — it's the class-notes log ("bitácora") for the course **Matemáticas Discretas 1**, Universidad de Antioquia (Ude@), semester 2026-2. There is no code to build, lint, or test. The only artifact type produced here is Markdown (`README.md`) plus the original class materials (PDF slides/handwritten notes, PPTX, Xournal++ `.xopp` files, and images) checked in as sibling files.
 
-Each `clase-0N/` directory holds one class session's materials and, once finalized, a `README.md` summarizing it. `clase-01` through `clase-09` have their `README.md` written and finalized.
+Each `clase-0N/` directory holds one class session's materials and, once finalized, a `README.md` summarizing it. `clase-01` through `clase-09` have their `README.md` written and finalized. `clase-10/README.md` (cuantificadores anidados, single session 29/09/2026) is drafted and awaiting Tigarto's approval; once approved, add its row to the root cronograma (planned row: semana 9, clase 17, 29/09/2026, "Lógica cuantificacional - Parte 8"). Note that directory numbers (`clase-10`) don't match the cronograma's class numbers (clase 17): directories count documented classes, the cronograma counts calendar sessions.
 
 The root `README.md` is the course syllabus/schedule (cronograma) — a table of all sessions with links into each `clase-0N/` directory. When a new `clase-0N/README.md` is finalized, the corresponding row in the root table should be updated (notes link, content summary, observations). **As of v1.6**: add one row per session to the *visible* table, taking week/class number/date/title from the planned rows in the commented-out block (`<!-- ... -->`, which is the original plan and is never edited), filling the other columns in the format of the existing visible rows, with "Contenido" reflecting what was actually taught (a postponed topic doesn't appear), and linking only the current class's manuscript.
 
@@ -39,9 +39,19 @@ The authoritative spec for writing `clase-0N/README.md` is **`prompt_maestro_apu
   - Escape `|` inside code in a table cell as `\|`.
   - Reserve callouts for what deserves emphasis (errors, morals, class Q&A, warnings); put other clarifications in plain paragraphs to avoid callout overload.
 - **Optional three-perspective review** (as of v1.6, Fase 4): on request, review the draft as a first-semester student, as the lead professor and as an academic math-textbook editor, scoring each 0–100 with prioritized fixes. Explicitly discard editor suggestions that break fidelity (reordering, formal rigor not taught, LaTeX).
+- **Correcting a previous class's error in a later class** (adopted while drafting `clase-10`, at Tigarto's request): when a professor's error from an already-finalized class must be fixed, the previous README stays untouched; the later README gets an `[!IMPORTANT]` banner right after the metadata blockquote pointing to an unnumbered `### Corrección de la clase anterior: …` subsection placed first in "Contenido temático" (after "Cómo leer este apunte"). That subsection gives the corrected answers, a `[!WARNING]` on why the old ones were wrong, the moral, and a link to the original section — and states explicitly whether the correction was or wasn't taught in this session.
+- **A previous class's exercise reworked in the current class** may come as a loose sibling file (e.g. `clase-10/ejemplo_clase_09_annotated.pdf`, check its handwritten date): link it in the metadata, label the exercise by its origin (`Ejemplo 4 (clase 9)`) and treat it as current-class content.
+- **Zoom summaries can conflate similar formulas** (in `clase-10` the AI mixed "alguien ama a todos" `∃x∀y` with "hay alguien a quien todos aman" `∃y∀x`, both present in the slides, and added type predicates the manuscript didn't have). Check every formula against the slides/manuscript before reporting a discrepancy.
+- **Tigarto's priority is no conceptual errors in what students take away.** Faithful transcription stays, but where a faithful formula could induce a misconception (e.g. reading `x ∈ U (usuario)` as if it restricted the quantifier), add an *Aclaración del apunte* that explains the concept and anchors it in examples from the same class.
 - Once a class `README.md` is approved, treat it as finalized: don't retroactively edit it if a later class announces a change (e.g. schedule change) — document the change in the later class's own `README.md` instead.
 
 Older spec versions (`prompt_maestro_apuntes_clase_v1.md`, `v1.1.md`, `v1.2.md`, `v1.3.md`, `v1.4.md`, `v1.5.md`) are kept in the repo root for history; do not follow them over v1.6.
+
+## Reading the manuscripts
+
+Handwritten annotations (session date markers, "Tarea", drawings) are not extractable as text — neither from the annotated PDF nor the `.xopp`. Render the pages and look at them: `pdftoppm -r 90 -png file.pdf out` (Git Bash; `pdftotext -enc UTF-8 -layout` works for the slide text), then tile pages into contact sheets with Python + PIL (`fitz`/`pypdf` are not installed). Session boundaries are usually a handwritten date on the cover and a "Fin: DD/MM/AAAA" on the last page taught.
+
+Slide figures may also live in a `clase-0N/images/` subfolder (as in `clase-10`), referenced as `./images/nombre.png`; a grid of figures can use an HTML `<table>` with `<img width>`.
 
 ## Naming conventions observed in the repo
 
