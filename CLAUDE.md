@@ -46,3 +46,13 @@ Older spec versions (`prompt_maestro_apuntes_clase_v1.md`, `v1.1.md`, `v1.2.md`,
 ## Naming conventions observed in the repo
 
 Directory names inconsistently use `clase-0N` (dash) at the top level, but files inside sometimes use `clase0N`/`claseN` (no dash) — follow whatever naming the existing files in that specific directory already use rather than imposing a single convention across the repo.
+
+## Moodle question bank (`banco_preguntas/`)
+
+`banco_preguntas/` holds a local backup of the course's Moodle (5.x) question banks, one Markdown file per topic (e.g. `modulo2_T05.md`, built from clases 7–9 for Quiz 5). It is listed in `.gitignore` and must never be committed or published. Each question is written from what was actually taught, citing its source class/section.
+
+- **Category tree in Moodle**: `Discretas → ModuloN → TNN · Tema → TNN-A / TNN-B / TNN-C` (one subcategory per question type). Quizzes draw random questions per subcategory; questions must be in state *Listo* (*Borrador* ones are skipped).
+- **Naming**: Número ID `M<módulo>-T<tema>-<Tipo><NN>` (e.g. `M2-T05-A01`); the question name is that ID plus ` - Descripción corta`. Tags: source class(es) (`clase7`…), subtopic, and `TipoA`/`TipoB`/`TipoC`.
+- **Types**: **A** = selección única (1 correct at 100 %, the rest 0 %); **B** = selección múltiple (*varias respuestas*, "mostrar número de respuestas correctas" unchecked); **C** = emparejamiento (score split equally across pairs; blank-question rows are distractors; repeated answers must be identical; the commented key goes in the general feedback since there's no per-pair feedback).
+- **Upload format**: math in LaTeX with `\( ... \)` inline and `\[ ... \]` display — never `$...$`. Blocks tagged **[HTML → modo `</>`]** (statements, general feedback) are pasted with the editor in code mode, otherwise Moodle shows the tags literally; **[TEXTO]** blocks go in normal view with Ctrl+Shift+V. The editor never renders LaTeX — check with *Vista previa*. In emparejamiento the answers (right column) are a plain-text dropdown, so they use Unicode symbols (∀ ∃ → ∧ ¬), not LaTeX. Percentages use a decimal point (`33.33333`).
+- **Selección múltiple grading rule**: each correct option = 100 % / (number of correct options); each incorrect option = −100 % / (number of incorrect options), so marking everything scores 0. The quiz description warns students that incorrect options subtract points.
