@@ -49,7 +49,7 @@ La clase empezó con los avisos sobre el segundo parcial y un repaso de la lógi
 | `∃x` | "existe (al menos) un x" | Cuantificador existencial. |
 | `∃!x` | "existe un único x" | Cuantificador de unicidad, visto en una clase anterior; en esta clase solo se recordó. |
 | `∀x ∃y P(x,y)` | "para todo x existe un y tal que P(x,y)" | **Cuantificadores anidados**: el `∃y` está dentro del alcance del `∀x`. |
-| `≡` | "es equivalente a" | Afirma algo **sobre** dos fórmulas: tienen el mismo valor de verdad. |
+| `≡` | "es equivalente a" | Afirma algo **sobre** dos fórmulas: tienen **siempre** el mismo valor de verdad, sea cual sea el universo y el significado de los predicados. |
 | `→` | "si…, entonces…" | Conectivo **dentro** de una fórmula. |
 | `x ≠ y` | "x es diferente de y" | Se usa como condición adicional (sección 7). |
 | `x ∈ U` | "x pertenece al universo U" | Todas las variables toman valores en el universo U. |
@@ -155,7 +155,7 @@ flowchart TB
 
 **Ambigüedad**: falta de claridad en el significado de una expresión, debida a que puede tener múltiples interpretaciones válidas. Para aclarar una ambigüedad hay que dar más contexto. En una conversación, la herramienta básica es **preguntar**; en matemáticas y en ingeniería, la solución es hacer explícitos el universo de discurso y las restricciones.
 
-*Aclaración del apunte:* las interpretaciones 1 y 2 se diferencian en "quién depende de quién": si hay una persona para todos los procesos, o un encargado distinto por proceso. Es la misma diferencia que se formaliza con los cuantificadores anidados en la [sección 5](#5-cuantificadores-anidados-y-alcance).
+*Aclaración del apunte:* la diferencia entre las interpretaciones 1 y 2 es el orden de "hay una persona" y "todos los procesos". En la 1, **existe** una persona que supervisa **todos** los procesos: es la misma para todos. En la 2, para **cada** proceso **existe** alguien que lo supervisa, y puede ser una persona distinta en cada uno. Es la misma diferencia que hay entre los casos 5 (`∃x ∀y`) y 6 (`∀y ∃x`) de la [sección 6](#6-las-seis-combinaciones-con-dos-variables).
 
 ### 3. Importancia del contexto
 
@@ -195,6 +195,8 @@ Ejemplo: `p ∨ q ∧ r` puede leerse como `(p ∨ q) ∧ r` o como `p ∨ (q �
 
 Se resuelve fijando explícitamente el orden de los cuantificadores: a diferencia del lenguaje natural, en la notación formal ese orden sí determina el alcance sin ambigüedad. Es el tema central de esta clase ([sección 5](#5-cuantificadores-anidados-y-alcance)).
 
+*Aclaración del apunte:* la ambigüedad está en la **oración**, no en las fórmulas. Una frase como "todos aman a alguien" podría entenderse de las dos maneras; cada fórmula, en cambio, fija una sola lectura. En clase, la lectura de "todos aman a alguien" se fijó con la paráfrasis "todos tienen a alguien a quien aman", que es `∀x ∃y ama(x,y)` ([sección 5](#5-cuantificadores-anidados-y-alcance)).
+
 **Ambigüedad semántica.** Ocurre cuando una expresión, aun con una única estructura sintáctica y un único alcance, admite más de un significado porque alguno de sus términos tiene más de una interpretación posible. Aquí el problema no está en cómo se combinan los símbolos, sino en qué significa cada uno. Ejemplos:
 
 - *"El banco está cerca del río"*: "banco" puede ser la entidad financiera o un asiento a la orilla del río. En notación de predicados, `B(x)` no tiene una interpretación única fijada por el contexto.
@@ -227,12 +229,14 @@ Con `U = {personas}`, `x, y ∈ U` y `ama(x,y)`: "x ama a y", el profesor traduj
 | "Todos aman a alguien" | "Todos **tienen a alguien** a quien aman" | `∀x (∃y ama(x,y))` |
 | "Alguien ama a todos" | "**Existe alguien** que ama a todos" | `∃x (∀y ama(x,y))` |
 
-En el primero, cada x tiene su propio y, y pueden ser personas distintas. En el segundo, hay una sola persona x que ama a todas las y.
+En el primero, cada x tiene su propio y, que puede cambiar de una persona a otra. En el segundo, hay una sola persona x que ama a todas las y.
+
+*Aclaración del apunte:* en `∀x ∃y ama(x,y)` nada impide que el y elegido sea **el propio x**: como x e y recorren el mismo universo, una persona que solo se ame a sí misma también cumple la fórmula. Por eso, en la restricción 2 de la [sección 7](#7-refinando-el-modelo), se agrega la condición `x ≠ y`.
 
 *Aclaración del apunte:* en el dibujo de la pág. 19, las columnas se rotulan X e Y, pero ambas representan a las mismas personas del universo U. Se separan solo para poder dibujar las flechas de quien ama hacia quien es amado.
 
 > [!NOTE]
-> Un estudiante preguntó si, cuando en el enunciado intervienen más de dos elementos del universo, se necesitan más variables (x, y, z…). El profesor confirmó que sí: cada elemento adicional requiere su propia variable, con su propio cuantificador según el contexto.
+> Un estudiante preguntó si, cuando el enunciado relaciona a más de dos individuos del universo, se necesitan más variables (x, y, z…). El profesor confirmó que sí: cada individuo adicional requiere su propia variable, con su propio cuantificador según el contexto.
 
 [Ver en el sitio](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase8/#parte-i--alcance-y-precedencia) — Parte I: alcance y precedencia.
 
@@ -264,7 +268,7 @@ En cada figura de clase, una flecha roja de x hacia y significa que x ama a y:
   </tr>
 </table>
 
-Compare los casos 3 y 4: tienen los mismos cuantificadores en distinto orden. En el 3, las flechas pueden llegar a personas distintas; en el 4, todas llegan a la misma persona. Igual pasa con los casos 5 y 6. En cambio, en los casos 1 y 2, cambiar el orden no altera nada: es la conmutatividad de cuantificadores del mismo tipo ([sección 1](#1-repaso-de-la-lógica-cuantificacional)).
+Compare los casos 3 y 4: tienen los mismos cuantificadores en distinto orden. En el 3, de cada x sale una flecha, y pueden llegar a personas distintas; en el 4, todas las flechas llegan a la misma persona. Algo parecido pasa con los casos 5 y 6: en el 5, todas las flechas salen de la misma persona; en el 6, a cada y le llega una flecha, que puede salir de personas distintas. En cambio, en los casos 1 y 2, cambiar el orden no altera nada: es la conmutatividad de cuantificadores del mismo tipo ([sección 1](#1-repaso-de-la-lógica-cuantificacional)).
 
 [Ver en el sitio](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase8/#parte-ii--cuantificadores-anidados-el-orden-importa) — Parte II: cuantificadores anidados, el orden importa.
 
@@ -287,7 +291,9 @@ La condición `persona(x)` restringe el cuantificador universal: solo se conside
 *Figura de clase (pág. 26).*
 
 > [!NOTE]
-> Un estudiante preguntó por qué se usa la implicación para unir `persona(x)` con el resto de la fórmula. El profesor explicó que es la estructura de la forma aristotélica universal (forma A): la implicación establece que **ser persona es la condición** para que se aplique lo que sigue. Los seres vivos que no son personas no quedan obligados a nada.
+> Un estudiante preguntó por qué se usa la implicación para unir `persona(x)` con el resto de la fórmula. El profesor explicó que es la estructura de la forma aristotélica universal (forma A): la implicación establece que **ser persona es la condición** para que se aplique lo que sigue.
+
+*Aclaración del apunte:* para un ser vivo que no es persona, `persona(x)` es falso y la implicación es verdadera: la fórmula no le exige nada. En cambio, dentro del `∃y` la condición `persona(y)` va con `∧`, no con `→`, porque es una forma I: se afirma que **existe** alguien que es persona **y** es amado por x. Con `→` dentro del `∃` bastaría encontrar un y que no fuera persona para que la fórmula fuera verdadera (es el mismo problema del inciso 4 de los cachivaches, en la [corrección](#corrección-de-la-clase-anterior-ejemplo-5-de-los-cachivaches)).
 
 **Restricción 2 — En el contexto no nos referimos al amor propio.** Se agrega la condición `x ≠ y`: "x y y son personas diferentes".
 
@@ -327,7 +333,15 @@ Los **cuantificadores anidados** son expresiones en las que un cuantificador (`�
 | 2. Cada cuantificador tiene su propia variable | `∀x ∃x ama(x,x)`: el `∃x` interior oculta (*shadowing*) al `∀x` exterior. No es ambigua, pero equivale solo a `∃x ama(x,x)` y se pierde la intención de "todos". | `∀x ∃y ama(x,y)`: cada cuantificador introduce su propia variable, x para el universal e y para el existencial. |
 | 4. Usar paréntesis para aclarar el alcance | `∀x P(x) → ∃y Q(y)`: sin paréntesis, no es claro si `→` está dentro del alcance de `∀x` o si conecta dos fórmulas independientes. | `∀x (P(x) → ∃y Q(y))`: los paréntesis dejan claro que toda la implicación está bajo el alcance de `∀x`. |
 
-*Aclaración del apunte:* la diapositiva numera las reglas violadas 1, 2 y 4 (no trae ejemplo de la regla 3). Sobre la regla 4: con la convención de la [clase 9](../clase-09/README.md#5-repaso-sobre-cuantificadores) (los cuantificadores se aplican antes que los conectivos), la fórmula sin paréntesis se leería `(∀x P(x)) → ∃y Q(y)`, que es una afirmación distinta de la versión correcta. Por eso, si lo que se quiere es que la implicación quede bajo el `∀x`, los paréntesis son obligatorios.
+*Aclaración del apunte:* la diapositiva numera las reglas violadas 1, 2 y 4 (no trae ejemplo de la regla 3).
+
+> [!NOTE]
+> **Aclaración del apunte: alcance sin paréntesis (reglas 3 y 4).** En la [clase 9](../clase-09/README.md#5-repaso-sobre-cuantificadores) se fijó la convención del curso: **los cuantificadores tienen mayor precedencia que los conectivos**, así que, sin paréntesis, un cuantificador solo alcanza la fórmula más pequeña que lo sigue. Con esa convención:
+>
+> - `∀x P(x) → ∃y Q(y)` se lee `(∀x P(x)) → ∃y Q(y)`: una implicación entre dos fórmulas independientes. Es una afirmación **distinta** de `∀x (P(x) → ∃y Q(y))`.
+> - Cuando la regla 3 dice que "el alcance se extiende hasta el final de la subfórmula", se refiere a la subfórmula que el cuantificador cubre: en `∀x (…)`, hasta el paréntesis que cierra. Si se quiere que el alcance vaya más allá del predicado inmediato, **hay que escribir los paréntesis**; no se debe suponer que el cuantificador "llega" hasta el final de la fórmula.
+>
+> Por eso las reglas 3 y 4 terminan en la misma recomendación: ante la duda, paréntesis.
 
 [Ver en el sitio](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod2/clase8/#parte-ii--cuantificadores-anidados-el-orden-importa) — incluye las reglas para trabajar con cuantificadores anidados.
 
@@ -343,6 +357,8 @@ Los **cuantificadores anidados** son expresiones en las que un cuantificador (`�
    - e. `∀y ∀x Q(x,y)`
 2. ¿Cuál sería la expresión en lenguaje formal para "Cada número real tiene un inverso"?
 3. Diga con palabras qué significa la siguiente expresión en lógica de predicados: `∀x ∀y ((x > 0) ∧ (y > 0) → xy > 0)`
+
+*Aclaración del apunte:* en el ejercicio 2, "inverso" puede ser aditivo o multiplicativo. Al traducir, deje explícito cuál usa y tenga presente qué pasa con x = 0.
 
 **Resumen de combinaciones** (pág. 32). La última diapositiva de la clase resume las combinaciones de cuantificadores para dos variables:
 
@@ -380,7 +396,9 @@ En la versión 1, `A` es una proposición simple: habla de un usuario implícito
 - "Un usuario cualquiera" → `∀x`, con `A(x)`.
 - "Al menos un enlace" → `∃y`, con `D(y)`.
 
-El resultado, `∀x (A(x) → ∃y (D(y)))`, es más preciso que la versión de la clase anterior, aunque formalmente más complejo. Al igual que en el enunciado 10 de Ricardo y Juan ([clase 9](../clase-09/README.md#4-ejemplo-integrador-ricardo-corazón-de-león-y-el-rey-juan)), el "un usuario" que aparece dentro de un "si…, entonces…" significa "**cualquier** usuario" y se traduce con `∀`, no con `∃`.
+El resultado, `∀x (A(x) → ∃y (D(y)))`, es más preciso que la versión de la clase anterior, aunque formalmente más complejo. Como en el enunciado 10 de Ricardo y Juan ([clase 9](../clase-09/README.md#4-ejemplo-integrador-ricardo-corazón-de-león-y-el-rey-juan)), el "un usuario" que aparece dentro de un "si…, entonces…" significa "**cualquier** usuario": se traduce con un `∀` que abarca toda la implicación. Un `∃` que abarcara la implicación, `∃x (A(x) → ∃y D(y))`, cambiaría el sentido: es el error del inciso 4 de los cachivaches ([corrección](#corrección-de-la-clase-anterior-ejemplo-5-de-los-cachivaches)).
+
+*Aclaración del apunte:* otra traducción correcta es `∃x A(x) → ∃y D(y)` ("si existe algún usuario activo, existe algún enlace disponible"), donde el `∃x` cubre **solo** el antecedente. Dice lo mismo que la del profesor: las dos son falsas exactamente cuando hay algún usuario activo y ningún enlace disponible. Esto ocurre porque la consecuencia ("al menos un enlace está disponible") no habla del usuario x. Lo incorrecto es poner el `∃x` por fuera de toda la implicación.
 
 *Aclaración del apunte:* para leer la fórmula ayuda anotar `x ∈ U (usuario)` y `y ∈ U (enlace)`. Pero esa anotación no restringe los cuantificadores: `∀x` y `∃y` recorren **todo** U, usuarios y enlaces por igual. Lo que garantiza que solo cuenten los usuarios y los enlaces es el significado de los predicados: `A(x)` solo es verdadero si x es un usuario activo (para un enlace es falso, y la implicación se cumple sin decir nada), y `D(y)` solo es verdadero si y es un enlace disponible. Si se prefiere hacer explícita la clase de cada elemento, como con `estudiante(x)` y `libro(y)` en la [sección 5](#5-cuantificadores-anidados-y-alcance) o con `persona(x)` en la restricción 1 de la [sección 7](#7-refinando-el-modelo), se agregan predicados de tipo: `∀x ((usuario(x) ∧ A(x)) → ∃y (enlace(y) ∧ D(y)))`. Las dos versiones dicen lo mismo.
 
