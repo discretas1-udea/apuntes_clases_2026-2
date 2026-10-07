@@ -2,22 +2,20 @@
 
 # Clase 11 — Demostraciones en lógica cuantificacional
 
-> **Fecha**: 01/10/2026 · **Modalidad**: Virtual sincrónica · **Apuntes**: [Diapositivas PDF](./apuntes_clase11.pdf) · [PPT](./apuntes_clase11.pptx) · [Manuscrito anotado](./apuntes_clase11_annotated.pdf)
+> **Fecha**: 01/10/2026, 06/10/2026 · **Modalidad**: Virtual sincrónica · **Apuntes**: [Diapositivas PDF](./apuntes_clase11.pdf) · [PPT](./apuntes_clase11.pptx) · [Manuscrito anotado](./apuntes_clase11_annotated.pdf)
 >
-> Las anotaciones a mano sobre las diapositivas 1–22 se perdieron porque el programa de anotación se cerró sin guardar durante la clase. Esas diapositivas ya traen los ejemplos resueltos. El manuscrito anotado tiene tinta a partir del Ejercicio 1 (pág. 25).
-
-<!-- Sesión 2 (06/10/2026): pendiente. Agregar la fecha a la metadata, la Agenda de la sesión 2, las secciones de la corrección del Ejercicio 2 y de los ejercicios 3–6, y actualizar la Síntesis y los Pendientes. -->
+> Las anotaciones a mano de la sesión del 01/10 sobre las diapositivas 1–22 se perdieron porque el programa de anotación se cerró sin guardar durante la clase. Esas diapositivas ya traen los ejemplos resueltos. La tinta que hoy tienen (la votación en la portada y los resaltados en las tablas) se agregó en la sesión del 06/10. La sesión del 01/10 termina en la pág. 25 («Fin: 01/10/2026») y la del 06/10 empieza en la pág. 26 («Inicio: 06/10/2026»).
 
 ## Objetivos de la clase
 
 - Repasar las herramientas acumuladas para el segundo parcial: formas aristotélicas, equivalencias y reglas de inferencia proposicionales.
 - Presentar las cuatro reglas de inferencia con cuantificadores (instanciación y generalización, universal y existencial).
-- Establecer el procedimiento para demostrar con cuantificadores: instanciar, aplicar reglas proposicionales y, si hace falta, generalizar.
-- Aplicar el procedimiento en ejemplos resueltos y en los primeros ejercicios de repaso.
+- Establecer el procedimiento para demostrar con cuantificadores (instanciar, aplicar reglas proposicionales y, si hace falta, generalizar) y aplicarlo en ejemplos resueltos y en los seis ejercicios de repaso.
+- Acordar con el grupo las condiciones del segundo parcial ante la anormalidad académica declarada en la universidad.
 
 ## Resumen
 
-La clase empezó con los avisos sobre el segundo parcial y un repaso de las tablas que se entregarán en el examen. Se presentaron las cuatro reglas de inferencia con cuantificadores y se aplicaron en tres ejemplos (Sócrates, Josefina y el estudiante que no leyó el libro). En los ejercicios de repaso, se resolvió el Ejercicio 1. El Ejercicio 2 no salió porque su enunciado estaba mal copiado del libro: quedó para revisar en la siguiente sesión.
+La sesión del 01/10 empezó con los avisos sobre el segundo parcial y un repaso de las tablas que se entregarán en el examen. Se presentaron las cuatro reglas de inferencia con cuantificadores, se aplicaron en tres ejemplos y se resolvió el Ejercicio 1; el Ejercicio 2 no salió porque su enunciado estaba mal copiado del libro. En la sesión del 06/10, tras una votación, el segundo parcial quedó como opcional, y se resolvieron los Ejercicios 2 (corregido) a 6.
 
 ## Agenda
 
@@ -34,13 +32,24 @@ La clase empezó con los avisos sobre el segundo parcial y un repaso de las tabl
 9. Ejercicio 1: 4 es un número positivo. [*(→ sección 8)*](#8-ejercicio-1-4-es-un-número-positivo)
 10. Ejercicio 2: intento con el enunciado erróneo; queda para revisar. [*(→ sección 9)*](#9-ejercicio-2-intento-con-el-enunciado-erróneo)
 
+**Sesión 2 — 06/10/2026**
+
+1. Avisos: anormalidad académica, votación sobre el segundo parcial y parcial opcional. [*(→ Evaluación)*](#evaluación)
+2. Ejercicio 2 con el enunciado corregido: 2 + 4 no es un número impar. [*(→ sección 10)*](#10-ejercicio-2-corregido)
+3. Ejercicio 3: las ballenas y la contaminación del océano. [*(→ sección 11)*](#11-ejercicio-3-las-ballenas-y-la-contaminación-del-océano)
+4. Ejercicio 4: Nueva Jersey y el océano. [*(→ sección 12)*](#12-ejercicio-4-nueva-jersey-y-el-océano)
+5. Ejercicio 5: desigualdades numéricas y la equivalencia del bicondicional. [*(→ sección 13)*](#13-ejercicio-5-desigualdades-numéricas)
+6. Ejercicio 6: resolución y la regla de adición. [*(→ sección 14)*](#14-ejercicio-6-resolución-y-adición)
+7. Recomendaciones para preparar el parcial. [*(→ Pendientes)*](#estudiantes)
+
 ## Contenido temático
 
 > [!NOTE]
 > **Cómo leer este apunte.**
 >
 > - Las secciones numeradas siguen el orden en que se dictó la clase.
-> - Las secciones 1 a 6 se basan en las diapositivas (que ya traen las soluciones) y en lo dicho en clase. Las secciones 8 y 9 se basan en el manuscrito anotado (págs. 25–26). La marca «Fin: 01/10/2026» está en la pág. 27.
+> - **Sesión 1 (01/10), secciones 1 a 9.** Las secciones 1 a 6 se basan en las diapositivas (que ya traen las soluciones) y en lo dicho en clase. La sección 8 se basa en el manuscrito anotado (pág. 25, con la marca «Fin: 01/10/2026»). La sección 9 relata el intento del Ejercicio 2: esa página ya no está en el manuscrito actualizado.
+> - **Sesión 2 (06/10), secciones 10 a 14.** Se basan en el manuscrito anotado (págs. 26–30). Donde el manuscrito tiene un error, la demostración se presenta ya corregida y el error se explica en una advertencia.
 > - Los párrafos que empiezan con *Aclaración del apunte* se agregaron al redactar: no se dijeron en clase. Sirven para conectar ideas o evitar confusiones.
 
 **Notación usada en este apunte**
@@ -308,10 +317,10 @@ Estos son los enunciados de los ejercicios de repaso (págs. 23–24), **ya corr
    - Conclusión: `∃x (T(x) ∨ Q(x) ∨ M(x))`.
 
 > [!WARNING]
-> **Los enunciados 2 y 5 se mostraron con errores en la sesión del 01/10.** Se copiaron mal del libro de donde se tomaron, y el profesor los corrigió después de la clase. Si repasa con el video, tenga en cuenta las diferencias:
+> **Los enunciados 2 y 5 se mostraron con errores en la sesión del 01/10.** Se copiaron mal del libro de donde se tomaron, y el profesor los corrigió para la sesión del 06/10. Si repasa con el video, tenga en cuenta las diferencias:
 >
-> - **Ejercicio 2, premisa b.** En clase decía «…entonces x no es un número **par**». La versión correcta es «…entonces x no es un número **impar**». Por este error, la solución del Ejercicio 2 no salió ([sección 9](#9-ejercicio-2-intento-con-el-enunciado-erróneo)).
-> - **Ejercicio 5, segunda premisa.** En clase decía `∀z ((−4 < z) ↔ (z < 4))`. La versión correcta es `∀z ((−4 < −z) ↔ (z < 4))`. El Ejercicio 5 no se alcanzó a trabajar en esta sesión.
+> - **Ejercicio 2, premisa b.** En clase decía «…entonces x no es un número **par**». La versión correcta es «…entonces x no es un número **impar**». Por este error, la solución del Ejercicio 2 no salió el 01/10 ([sección 9](#9-ejercicio-2-intento-con-el-enunciado-erróneo)); se resolvió el 06/10 con el enunciado corregido ([sección 10](#10-ejercicio-2-corregido)).
+> - **Ejercicio 5, segunda premisa.** En clase decía `∀z ((−4 < z) ↔ (z < 4))`. La versión correcta es `∀z ((−4 < −z) ↔ (z < 4))`. El Ejercicio 5 no se alcanzó a trabajar el 01/10; se resolvió el 06/10 con el enunciado corregido ([sección 13](#13-ejercicio-5-desigualdades-numéricas)).
 
 ### 8. Ejercicio 1: 4 es un número positivo
 
@@ -342,45 +351,177 @@ La "eliminación" es el silogismo disyuntivo de la tabla de reglas ([sección 1]
 
 ### 9. Ejercicio 2: intento con el enunciado erróneo
 
-En clase, el Ejercicio 2 se mostró con este enunciado (versión anterior a la corrección):
+En la sesión del 01/10, el Ejercicio 2 se mostró con la premisa b mal copiada: «Para cada x, si x es un número par, entonces x no es un número **par**» (versión correcta en la [sección 7](#7-ejercicios-de-repaso)). El profesor tradujo el argumento e intentó la demostración, pero las expresiones no se cancelaban como esperaba: sospechó que el enunciado estaba mal copiado del libro y dejó el ejercicio para revisar en la siguiente sesión. En el manuscrito actualizado, esa página se reemplazó por la solución con el enunciado corregido ([sección 10](#10-ejercicio-2-corregido)).
 
-> El dominio de referencia es ℤ y se definen las siguientes premisas:
->
-> - a. Para cada x, si x es un número par, entonces x + 4 es un número par.
-> - b. Para cada x, si x es un número par, entonces x no es un número **par**.
-> - c. Dos es un número par.
->
-> La conclusión que se sigue es: "2 + 4 no es un número impar".
+> [!WARNING]
+> **Error del profesor en clase: enunciado mal copiado.** La premisa (b) que se mostró, «si x es par, entonces x **no es par**», se contradice con la premisa (c), «2 es par». Con x = 2, la premisa (b) dice que si 2 es par, entonces 2 no es par; junto con (c), se llega a que 2 no es par, justo lo contrario de (c). Un conjunto de premisas que se contradicen entre sí no describe ninguna situación posible, así que el ejercicio no tiene sentido tal como se planteó. La traducción era fiel al enunciado mostrado: el error estaba en el enunciado. La premisa correcta es «si x es par, entonces x **no es impar**».
 
-*En el manuscrito anotado, la pág. 26 ya muestra de fondo el enunciado corregido, pero la solución escrita a mano corresponde a este enunciado erróneo.*
+> [!TIP]
+> **Moraleja.** Antes de empezar a demostrar, lea las premisas en lenguaje natural y pregúntese si pueden ser verdaderas al mismo tiempo. Si una premisa contradice a otra, el problema está en el enunciado, no en la demostración.
 
-**Traducción** (manuscrito, pág. 26). Universo: `U = ℤ`. Variable: `x ∈ U`. Predicados: `par(x)`: "x es par"; `impar(x)`: "x es impar". Para traducir la conclusión, el profesor anotó `¬(impar(x)) = ¬(¬par(x)) = par(x)`: "no ser impar" es lo mismo que "ser par". Así quedó el argumento:
+### 10. Ejercicio 2 corregido
+
+La sesión del 06/10 empezó con el Ejercicio 2, ya con la premisa b corregida (manuscrito, pág. 26). En la sesión, el profesor confirmó que el error era de transcripción del libro fuente y que, una vez corregido, el planteamiento y la demostración son consistentes.
+
+**Traducción.** Universo: `U = ℤ`. Variable: `x ∈ U`. Predicados: `par(x)`: "x es par"; `impar(x)`: "x es impar".
 
 - (a) `∀x (par(x) → par(x+4))`
-- (b) `∀x (par(x) → ¬par(x))`
+- (b) `∀x (par(x) → ¬impar(x))`
 - (c) `par(2)`
-- Conclusión: `∴ par(2+4)`
+- Conclusión: `∴ ¬impar(2+4)`
 
-**Intento de demostración** (transcripción del manuscrito, pág. 26):
+**Demostración** (pág. 26):
 
 | # | Afirmación | Razón |
 |---|---|---|
 | 1 | `∀x (par(x) → par(x+4))` | Premisa (a) |
-| 2 | `par(2) → par(2+4)` | UI en 1 (x = 2) |
-| 3 | `∀x (par(x) → ¬par(x))` | Premisa (b) |
-| 4 | `par(2) → ¬par(2)` | UI en 3 (x = 2) |
-| 5 | `¬par(2) ∨ par(2+4)` | Implicación en 2 (`P → Q ≡ ¬P ∨ Q`) |
-| 6 | `¬par(2) ∨ ¬par(2)` | Implicación en 4 |
-| 7 | `¬par(2)` | Idempotencia (∨) en 6 |
-| 8 | `¬par(2) ∧ (¬par(2) ∨ par(2+4))` | Conjunción en 5 y 7 |
+| 2 | `∀x (par(x) → ¬impar(x))` | Premisa (b) |
+| 3 | `par(2)` | Premisa (c) |
+| 4 | `par(2) → par(2+4)` | UI con x = 2 en 1 |
+| 5 | `par(2+4) → ¬impar(2+4)` | UI con x = 2+4 en 2 |
+| 6 | `par(2+4)` | Modus Ponens en 3 y 4 |
+| 7 | `¬impar(2+4)` | Modus Ponens en 5 y 6 |
 
-Al llegar aquí, el profesor anotó «Revisar…»: las expresiones no se cancelaban como esperaba, sospechó que el enunciado estaba mal copiado del libro y dejó el ejercicio para revisar en la siguiente sesión.
+Observe que las dos premisas universales se instancian con constantes **distintas**: la (a) con x = 2, para usarla con la premisa (c), y la (b) con x = 2+4, para usarla con el resultado del paso 6. La UI admite cualquier constante, así que se elige la que permite encadenar los Modus Ponens.
+
+### 11. Ejercicio 3: las ballenas y la contaminación del océano
+
+**Enunciado** (pág. 27): "Alguien en esta clase disfruta observar ballenas, toda persona que disfruta observar ballenas se preocupa por la contaminación del océano". Por lo tanto, "hay una persona en esta clase que se preocupa por la contaminación del océano".
+
+**Traducción.** Universo: `U = {personas}`. Variable: `x ∈ U`. Predicados: `C(x)`: "x es una persona de esta clase"; `B(x)`: "x disfruta observar ballenas"; `O(x)`: "x se preocupa por la contaminación del océano".
+
+- (a) `∃x (C(x) ∧ B(x))`
+- (b) `∀x (B(x) → O(x))`
+- Conclusión: `∴ ∃x (C(x) ∧ O(x))`
+
+La premisa (a) y la conclusión son formas I; la premisa (b) es una forma A ([sección 1](#1-repaso-para-el-segundo-parcial)).
+
+**Demostración** (pág. 27):
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `∃x (C(x) ∧ B(x))` | Premisa (a) |
+| 2 | `∀x (B(x) → O(x))` | Premisa (b) |
+| 3 | `C(a) ∧ B(a)` | EI en 1 para x = a |
+| 4 | `B(a) → O(a)` | UI en 2 para x = a |
+| 5 | `C(a)` | Simplificación en 3 |
+| 6 | `B(a)` | Simplificación en 3 |
+| 7 | `O(a)` | Modus Ponens en 6 y 4 |
+| 8 | `C(a) ∧ O(a)` | Conjunción en 5 y 7 |
+| 9 | `∃x (C(x) ∧ O(x))` | Generalización existencial (EG) en 8 |
+
+Es la misma estructura del [Ejemplo 3](#6-ejemplo-3-alguien-que-aprobó-el-examen-no-ha-leído-el-libro): primero la EI con una constante nueva (paso 3) y después la UI con esa misma constante (paso 4).
+
+*En el manuscrito, el paso 9 aparece escrito sin la variable después del cuantificador (`∃(C(x) ∧ O(x))`); aquí se escribe completo.*
+
+> [!NOTE]
+> Un estudiante preguntó si, cuando una oración tiene sus partes en orden A y B y otra las tiene en orden B y A con el mismo significado, se puede usar como la misma premisa. El profesor respondió que depende del sentido lógico: si el sentido lógico es distinto, son premisas distintas, y por eso conviene definir cada proposición por separado antes de trabajar con los conectivos.
+
+*Aclaración del apunte:* en una **conjunción** el orden nunca cambia el sentido: por conmutatividad ([tabla de equivalencias](#1-repaso-para-el-segundo-parcial)), `C(a) ∧ B(a) ≡ B(a) ∧ C(a)`, así que se puede usar una en lugar de la otra. En una **implicación**, en cambio, el orden sí cambia el sentido: `B(x) → O(x)` ("si disfruta observar ballenas, se preocupa por el océano") no es lo mismo que `O(x) → B(x)` ("si se preocupa por el océano, disfruta observar ballenas").
+
+### 12. Ejercicio 4: Nueva Jersey y el océano
+
+**Enunciado** (pág. 28): "Toda persona en Nueva Jersey vive a menos de 50 millas del océano. Alguien en Nueva Jersey nunca ha visto el océano". Por lo tanto, "alguien que vive a menos de 50 millas del océano nunca ha visto el océano".
+
+**Traducción.** Universo: `U = {personas}`. Variable: `x ∈ U`. Predicados: `N(x)`: "x es de Nueva Jersey"; `O(x)`: "x vive a menos de 50 millas del océano"; `V(x)`: "x ha visto el océano". "Nunca ha visto el océano" se traduce como `¬V(x)`.
+
+- (a) `∀x (N(x) → O(x))`
+- (b) `∃x (N(x) ∧ ¬V(x))`
+- Conclusión: `∴ ∃x (O(x) ∧ ¬V(x))`
+
+La premisa (a) es una forma A; la premisa (b) y la conclusión son formas O ([sección 1](#1-repaso-para-el-segundo-parcial)).
+
+> [!NOTE]
+> Un estudiante preguntó si "vive a menos de 50 millas del océano" no debería traducirse con `O(x)` en lugar de `N(x)`. El profesor le dio la razón: `O(x)` es "vive a menos de 50 millas del océano", y es importante verificar que la traducción tenga sentido con los predicados definidos.
+
+**Demostración** (pág. 28, con el orden de las instanciaciones corregido):
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `∀x (N(x) → O(x))` | Premisa (a) |
+| 2 | `∃x (N(x) ∧ ¬V(x))` | Premisa (b) |
+| 3 | `N(c) ∧ ¬V(c)` | EI en 2 para x = c (constante nueva) |
+| 4 | `N(c) → O(c)` | UI en 1 para x = c |
+| 5 | `N(c)` | Simplificación en 3 |
+| 6 | `¬V(c)` | Simplificación en 3 |
+| 7 | `O(c)` | Modus Ponens en 4 y 5 |
+| 8 | `O(c) ∧ ¬V(c)` | Conjunción en 7 y 6 |
+| 9 | `∃x (O(x) ∧ ¬V(x))` | EG en 8 |
 
 > [!WARNING]
-> **Error del profesor en clase: enunciado mal copiado.** La premisa (b) que se mostró, «si x es par, entonces x **no es par**», se contradice con la premisa (c). Con x = 2, la premisa (b) dice que si 2 es par, entonces 2 no es par; por eso el paso 7 llega a `¬par(2)`, justo lo contrario de la premisa (c), `par(2)`. Un conjunto de premisas que se contradicen entre sí no describe ninguna situación posible, así que el ejercicio no tiene sentido tal como se planteó. La traducción `∀x (par(x) → ¬par(x))` sí era fiel al enunciado mostrado: el error estaba en el enunciado. La premisa correcta es «si x es par, entonces x **no es impar**» ([sección 7](#7-ejercicios-de-repaso)). La solución con el enunciado corregido se trabaja en la siguiente sesión.
+> **Error del profesor en clase: orden de las instanciaciones.** En clase (y en el manuscrito, pág. 28), primero se hizo la UI de la premisa (a) con `c` y después la EI de la premisa (b) con la **misma** `c`. Eso no es válido: la EI exige una constante **nueva** ([sección 3](#3-reglas-de-inferencia-con-cuantificadores)). En términos de sentido, la premisa (b) solo garantiza que *existe alguien* de Nueva Jersey que nunca ha visto el océano; no permite afirmar que ese alguien sea un individuo `c` que ya se estaba usando. En la tabla de arriba, el orden está corregido: primero la EI (paso 3), que introduce `c` como constante nueva, y después la UI (paso 4), que admite cualquier constante, incluida esa `c`. Es el mismo orden del [Ejemplo 3](#6-ejemplo-3-alguien-que-aprobó-el-examen-no-ha-leído-el-libro) y del [Ejercicio 3](#11-ejercicio-3-las-ballenas-y-la-contaminación-del-océano). El resto de la demostración no cambia.
+>
+> El manuscrito tiene además dos erratas en este ejercicio, corregidas en la tabla: en la EI escribe `N(c) ∧ ¬V(x)` en lugar de `N(c) ∧ ¬V(c)`, y en el último paso escribe `∃x (C(x) ∧ ¬V(x))` en lugar de `∃x (O(x) ∧ ¬V(x))`.
 
 > [!TIP]
-> **Moraleja.** Antes de empezar a demostrar, lea las premisas en lenguaje natural y pregúntese si pueden ser verdaderas al mismo tiempo. Si una premisa contradice a otra, el problema está en el enunciado, no en la demostración.
+> **Moraleja.** Cuando una demostración tiene premisas con `∃` y con `∀`, instancie **primero el existencial**, con una constante nueva, y después el universal con esa misma constante. Antes de escribir "EI" como razón, pregúntese: ¿esta constante ya apareció en un paso anterior? Si apareció, la EI no puede usarla.
+
+### 13. Ejercicio 5: desigualdades numéricas
+
+En este ejercicio las premisas ya vienen en lenguaje formal, así que no hay que traducir.
+
+**Enunciado** (pág. 29): deduzca los teoremas con base en el sistema de lógica cuantificacional.
+
+- (a) `∀x ((x < 4) ∧ (4 < 5) → x < 5)`
+- (b) `∀z ((−4 < −z) ↔ (z < 4))`
+- (c) `4 < 5`
+- (d) `−4 < −3`
+- Conclusión: `∴ 3 < 5`
+
+**Demostración** (pág. 29):
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `∀x ((x < 4) ∧ (4 < 5) → x < 5)` | Premisa (a) |
+| 2 | `∀z ((−4 < −z) ↔ (z < 4))` | Premisa (b) |
+| 3 | `4 < 5` | Premisa (c) |
+| 4 | `−4 < −3` | Premisa (d) |
+| 5 | `(3 < 4) ∧ (4 < 5) → 3 < 5` | UI en 1 para x = 3 |
+| 6 | `(−4 < −3) ↔ (3 < 4)` | UI en 2 para z = 3 |
+| 7 | `((−4 < −3) → (3 < 4)) ∧ ((3 < 4) → (−4 < −3))` | Equivalencia en 6 |
+| 8 | `(−4 < −3) → (3 < 4)` | Simplificación en 7 |
+| 9 | `3 < 4` | Modus Ponens en 4 y 8 |
+| 10 | `(3 < 4) ∧ (4 < 5)` | Conjunción en 9 y 3 |
+| 11 | `3 < 5` | Modus Ponens en 5 y 10 |
+
+El profesor destacó el paso 7 como lo más novedoso del ejercicio: la equivalencia `P ↔ Q ≡ (P → Q) ∧ (Q → P)` ([tabla de equivalencias](#1-repaso-para-el-segundo-parcial)) convierte el bicondicional en dos implicaciones, y la simplificación (paso 8) permite quedarse con la que se necesita.
+
+> [!NOTE]
+> Un estudiante preguntó por qué se aplica la equivalencia. El profesor respondió que la doble implicación equivale a la conjunción de dos implicaciones simples, `(P → Q) ∧ (Q → P)`, y eso permite extraer, por simplificación, la implicación que hace falta para continuar.
+
+### 14. Ejercicio 6: resolución y adición
+
+**Enunciado** (pág. 30): deduzca los teoremas con base en el sistema de lógica cuantificacional.
+
+- (a) `∀x (R(x) ∨ Z(x))`
+- (b) `∀x (¬T(x) → ¬R(x))`
+- (c) `∃x (¬Z(x) ∨ Q(x))`
+- Conclusión: `∴ ∃x (T(x) ∨ Q(x) ∨ M(x))`
+
+**Demostración** (pág. 30, con el orden de las instanciaciones corregido):
+
+| # | Afirmación | Razón |
+|---|---|---|
+| 1 | `∀x (R(x) ∨ Z(x))` | Premisa (a) |
+| 2 | `∀x (¬T(x) → ¬R(x))` | Premisa (b) |
+| 3 | `∃x (¬Z(x) ∨ Q(x))` | Premisa (c) |
+| 4 | `¬Z(b) ∨ Q(b)` | EI en 3 para x = b (constante nueva) |
+| 5 | `R(b) ∨ Z(b)` | UI en 1 para x = b |
+| 6 | `¬T(b) → ¬R(b)` | UI en 2 para x = b |
+| 7 | `¬(¬T(b)) ∨ ¬R(b)` | Implicación en 6 |
+| 8 | `T(b) ∨ ¬R(b)` | Doble negación en 7 |
+| 9 | `R(b) ∨ Q(b)` | Resolución en 5 y 4 |
+| 10 | `T(b) ∨ Q(b)` | Resolución en 8 y 9 |
+| 11 | `T(b) ∨ Q(b) ∨ M(b)` | Adición en 10 |
+| 12 | `∃x (T(x) ∨ Q(x) ∨ M(x))` | EG en 11 |
+
+> [!WARNING]
+> **Error del profesor en clase: orden de las instanciaciones.** Es el mismo error del [Ejercicio 4](#12-ejercicio-4-nueva-jersey-y-el-océano). En clase (y en el manuscrito, pág. 30), primero se hicieron las dos UI con `b` (premisas a y b) y después la EI de la premisa (c) con la misma `b`. La EI exige una constante nueva: la premisa (c) solo garantiza que *existe algún* individuo con `¬Z(x) ∨ Q(x)`, no que sea el `b` que ya se estaba usando. En la tabla de arriba, la EI va primero (paso 4) y las UI después (pasos 5 y 6). Por eso la numeración de los pasos 4 a 6 no coincide con la del manuscrito; los pasos siguientes son los mismos.
+
+*Aclaración del apunte:* la Resolución se escribe `¬p ∨ r`, `p ∨ q` `∴ q ∨ r` ([sección 1](#1-repaso-para-el-segundo-parcial)). En el paso 9, `p` es `Z(b)`: de `¬Z(b) ∨ Q(b)` y `R(b) ∨ Z(b)` (reordenada como `Z(b) ∨ R(b)` por conmutatividad) se obtiene `R(b) ∨ Q(b)`. En el paso 10, `p` es `R(b)`: de `T(b) ∨ ¬R(b)` (reordenada como `¬R(b) ∨ T(b)`) y `R(b) ∨ Q(b)` se obtiene `T(b) ∨ Q(b)`.
+
+> [!NOTE]
+> Un estudiante observó que el predicado `M(x)` no aparece en ninguna premisa y preguntó si la conclusión no estaría mal. El profesor respondió que no: una vez obtenida `T(b) ∨ Q(b)`, la regla de **Adición** (`p` `∴ p ∨ q`) permite agregar `M(b)` como disyunto, porque una proposición verdadera sigue siendo verdadera al agregarle cualquier disyunto.
 
 ### Síntesis de la clase
 
@@ -388,30 +529,36 @@ Al llegar aquí, el profesor anotó «Revisar…»: las expresiones no se cancel
 
 **Ideas clave:**
 
-1. **Las tablas se entregan en el parcial; lo que se evalúa es saber aplicarlas.** Las equivalencias y reglas proposicionales siguen valiendo con cuantificadores ([sección 1](#1-repaso-para-el-segundo-parcial)).
+1. **Las tablas se entregan en el parcial; lo que se evalúa es saber aplicarlas.** Las equivalencias y reglas proposicionales siguen valiendo con cuantificadores ([sección 1](#1-repaso-para-el-segundo-parcial)); en los ejercicios de repaso se usaron, entre otras, la equivalencia del bicondicional ([sección 13](#13-ejercicio-5-desigualdades-numéricas)), la resolución y la adición ([sección 14](#14-ejercicio-6-resolución-y-adición)).
 2. **Demostrar con cuantificadores tiene tres pasos**: instanciar (UI, EI), aplicar reglas proposicionales y, si la conclusión lo pide, generalizar (UG, EG) ([sección 3](#3-reglas-de-inferencia-con-cuantificadores)).
-3. **Cada regla tiene su condición**: UI admite cualquier constante; EI exige una constante nueva; UG exige un individuo arbitrario; EG admite cualquier constante ([sección 3](#3-reglas-de-inferencia-con-cuantificadores)).
-4. **Primero se traduce**: universo, variables, predicados y la representación de cada premisa y de la conclusión. Después se demuestra ([secciones 4](#4-ejemplo-1-sócrates-es-mortal) a [6](#6-ejemplo-3-alguien-que-aprobó-el-examen-no-ha-leído-el-libro)).
-5. **Las premisas deben tener sentido juntas**: si se contradicen, el error está en el enunciado ([sección 9](#9-ejercicio-2-intento-con-el-enunciado-erróneo)).
+3. **Cada regla tiene su condición**: UI admite cualquier constante; EI exige una constante nueva; UG exige un individuo arbitrario; EG admite cualquier constante ([sección 3](#3-reglas-de-inferencia-con-cuantificadores)). Por eso, cuando hay premisas con `∃` y con `∀`, **la EI va primero** ([secciones 11](#11-ejercicio-3-las-ballenas-y-la-contaminación-del-océano) a [14](#14-ejercicio-6-resolución-y-adición)).
+4. **Primero se traduce**: universo, variables, predicados y la representación de cada premisa y de la conclusión, verificando que cada predicado diga lo que dice el enunciado. Después se demuestra ([secciones 4](#4-ejemplo-1-sócrates-es-mortal) a [6](#6-ejemplo-3-alguien-que-aprobó-el-examen-no-ha-leído-el-libro), [11](#11-ejercicio-3-las-ballenas-y-la-contaminación-del-océano) y [12](#12-ejercicio-4-nueva-jersey-y-el-océano)).
+5. **Las premisas deben tener sentido juntas**: si se contradicen, el error está en el enunciado ([secciones 9](#9-ejercicio-2-intento-con-el-enunciado-erróneo) y [10](#10-ejercicio-2-corregido)).
 
 > [!IMPORTANT]
-> **Errores y dudas de esta clase.** Lo que efectivamente ocurrió o se preguntó en la sesión:
+> **Errores y dudas de esta clase.** Lo que efectivamente ocurrió o se preguntó en las sesiones:
 >
-> - **Enunciados 2 y 5 de los ejercicios de repaso mal copiados del libro** (error del profesor en clase). El Ejercicio 2 no salió por ese motivo. Ver la [advertencia de la sección 7](#7-ejercicios-de-repaso) y la [sección 9](#9-ejercicio-2-intento-con-el-enunciado-erróneo).
-> - **¿Se puede restringir el universo a "los hombres"?** (pregunta de un estudiante). Sí, pero se pierde el uso completo de las premisas ([sección 4](#4-ejemplo-1-sócrates-es-mortal)).
-> - **¿Cuándo se reemplaza la variable por una constante?** (pregunta de un estudiante). Al eliminar el cuantificador ([sección 3](#3-reglas-de-inferencia-con-cuantificadores)).
-> - **¿Al generalizar, la constante vuelve a ser variable?** (pregunta de un estudiante). Sí; con UG, solo si la constante es arbitraria ([sección 3](#3-reglas-de-inferencia-con-cuantificadores)).
-> - **¿Por qué no se usa el "o exclusivo"?** (pregunta de un estudiante). Porque no está en las tablas del curso ([sección 8](#8-ejercicio-1-4-es-un-número-positivo)).
+> - **Enunciados 2 y 5 de los ejercicios de repaso mal copiados del libro** (error del profesor en clase, 01/10). El Ejercicio 2 no salió por ese motivo y se resolvió el 06/10 con el enunciado corregido. Ver la [advertencia de la sección 7](#7-ejercicios-de-repaso) y las secciones [9](#9-ejercicio-2-intento-con-el-enunciado-erróneo) y [10](#10-ejercicio-2-corregido).
+> - **EI con una constante ya usada en los Ejercicios 4 y 6** (error del profesor en clase, 06/10). Se hizo la UI antes que la EI, con la misma constante. Ver las secciones [12](#12-ejercicio-4-nueva-jersey-y-el-océano) y [14](#14-ejercicio-6-resolución-y-adición).
+> - **¿Se puede restringir el universo a "los hombres"?** (pregunta de un estudiante, 01/10). Sí, pero se pierde el uso completo de las premisas ([sección 4](#4-ejemplo-1-sócrates-es-mortal)).
+> - **¿Cuándo se reemplaza la variable por una constante?** (pregunta de un estudiante, 01/10). Al eliminar el cuantificador ([sección 3](#3-reglas-de-inferencia-con-cuantificadores)).
+> - **¿Al generalizar, la constante vuelve a ser variable?** (pregunta de un estudiante, 01/10). Sí; con UG, solo si la constante es arbitraria ([sección 3](#3-reglas-de-inferencia-con-cuantificadores)).
+> - **¿Por qué no se usa el "o exclusivo"?** (pregunta de un estudiante, 01/10). Porque no está en las tablas del curso ([sección 8](#8-ejercicio-1-4-es-un-número-positivo)).
+> - **¿El orden A y B frente a B y A da la misma premisa?** (pregunta de un estudiante, 06/10). Depende del sentido lógico: en una conjunción el orden no importa; en una implicación, sí ([sección 11](#11-ejercicio-3-las-ballenas-y-la-contaminación-del-océano)).
+> - **¿"Vive a menos de 50 millas" no es `O(x)` en lugar de `N(x)`?** (corrección de un estudiante, 06/10). Sí ([sección 12](#12-ejercicio-4-nueva-jersey-y-el-océano)).
+> - **¿Por qué se aplica la equivalencia del bicondicional?** (pregunta de un estudiante, 06/10). Para obtener las dos implicaciones y quedarse con la que se necesita ([sección 13](#13-ejercicio-5-desigualdades-numéricas)).
+> - **¿Está mal la conclusión si `M(x)` no aparece en las premisas?** (pregunta de un estudiante, 06/10). No: se agrega con la regla de Adición ([sección 14](#14-ejercicio-6-resolución-y-adición)).
 
 ## Evaluación
 
 | Ítem | Detalle |
 |---|---|
-| Segundo parcial | Sábado **10/10/2026**, de 11:00 a 13:00. El horario no cambia: se verificó con la coordinación que no hay cruce con otros cursos. Cubre hasta lo visto en esta clase: lógica cuantificacional, con sus reglas de inferencia y demostraciones. |
+| Segundo parcial | Sábado **10/10/2026**, de 11:00 a 13:00. El 01/10 se confirmó que el horario no cambia: se verificó con la coordinación que no hay cruce con otros cursos. Cubre lógica cuantificacional, con sus reglas de inferencia y demostraciones. |
+| Segundo parcial: actualización del 06/10 | La universidad declaró **anormalidad académica hasta el 14/10/2026**. En una votación en Zoom («¿Aplazamos el parcial del 10 de octubre?»), de 28 estudiantes participaron 16: 9 votaron sí (56 %) y 7 no (44 %). Con ese resultado, el profesor decidió que **presentar el parcial el sábado 10/10 es opcional**. Quien lo presente queda evaluado; quien no, lo presentará en una fecha que se definirá cuando se normalice la situación académica. Quien lo presente el sábado y quiera mejorar la nota podrá volver a presentarlo en esa fecha. Las clases siguen avanzando en contenido. |
 | Tablas de consulta en el parcial | Se entregarán las tablas de formas aristotélicas, equivalencias de lógica proposicional, equivalencias de lógica cuantificacional, reglas de inferencia proposicionales y reglas de inferencia con cuantificadores ([secciones 1](#1-repaso-para-el-segundo-parcial) y [3](#3-reglas-de-inferencia-con-cuantificadores)). Lo fundamental es saber aplicarlas. |
 | Notas del primer parcial | La mayoría ya estaban calificadas; el profesor enviaría el reporte de notas ese mismo día, para que los estudiantes puedan tomar decisiones sobre su situación académica. |
 | Primer 25 % | El profesor lo reportará después de revisar los quices. |
-| Quizzes 5–8 | Publicados en Ude@: Quiz 5 (traducción y formas aristotélicas), Quiz 6 (verdad y falsedad de enunciados cuantificados), Quiz 7 (negación y equivalencias cuantificacionales) y Quiz 8 (cuantificadores anidados). Cierran el sábado **17/10/2026 a las 23:59**. Intentos ilimitados; se toma la nota más alta. La idea es resolverlos **antes del parcial**, como repaso. |
+| Quizzes 5–8 | Publicados en Ude@ (Moodle): Quiz 5 (traducción y formas aristotélicas), Quiz 6 (verdad y falsedad de enunciados cuantificados), Quiz 7 (negación y equivalencias cuantificacionales) y Quiz 8 (cuantificadores anidados). Valen **5 %** de la nota, como seguimiento. Cierran el sábado **17/10/2026 a las 23:59**. Intentos ilimitados; se toma la nota más alta. La recomendación es resolverlos **antes de presentar el parcial**, como repaso. |
 
 ## Pendientes
 
@@ -419,15 +566,20 @@ Al llegar aquí, el profesor anotó «Revisar…»: las expresiones no se cancel
 
 - [ ] Enviar el reporte de notas del primer parcial.
 - [ ] Reportar el primer 25 % de la nota, después de revisar los quices.
-- [ ] Revisar en el libro fuente los enunciados de los Ejercicios 2 y 5, y presentar la solución del Ejercicio 2 corregido en la siguiente sesión.
+- [x] Revisar en el libro fuente los enunciados de los Ejercicios 2 y 5, y presentar la solución del Ejercicio 2 corregido en la siguiente sesión.
+- [ ] Comunicar a la coordinación que el segundo parcial del 10/10 es opcional, con el resultado de la votación.
+- [ ] Definir y comunicar la fecha alternativa del segundo parcial cuando se levante la anormalidad académica.
+- [ ] Compartir parciales anteriores con solución como material de estudio.
 
 ### Estudiantes
 
-- [ ] Resolver los Quizzes 5–8 en Ude@ antes del parcial del 10/10/2026, como repaso (cierran el 17/10/2026).
-- [ ] Practicar con los parciales anteriores (con enunciados y soluciones) y los talleres de la página del curso, incluido el Taller 4.
+- [ ] Decidir si presenta el segundo parcial el sábado 10/10/2026 (11:00–13:00) o espera la fecha alternativa.
+- [ ] Resolver los Quizzes 5–8 en Ude@ (5 %) antes de presentar el parcial (cierran el 17/10/2026).
+- [ ] Practicar los ejercicios vistos en clase intentando resolverlos sin consultar los apuntes, para verificar que el contenido quedó asimilado.
+- [ ] Resolver los talleres de repaso de la página del curso: [Taller 4](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller4/) y [Taller 5](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller5/). También sirven los parciales anteriores (con enunciados y soluciones).
 - [ ] Repasar las tablas de equivalencias y de reglas de inferencia, proposicionales y con cuantificadores: se entregan en el parcial, y lo que se evalúa es saber aplicarlas.
-- [ ] Estar pendientes de los anuncios en el foro del curso.
+- [ ] Mantenerse informados sobre la situación de la universidad (asambleas, levantamiento de la anormalidad académica) y sobre los anuncios en el foro del curso.
 
 ## Próxima clase
 
-Sesión 2 de esta clase (06/10/2026): corrección del Ejercicio 2 y resolución de los demás ejercicios de repaso, incluido el Ejercicio 5 con el enunciado corregido.
+Jueves 08/10/2026: inicio de un nuevo tema.
