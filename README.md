@@ -87,6 +87,13 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
      * **Taller 4**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller4/)
      * **Taller 5**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller5/)
 
+## Tema 3 - Conjuntos y Relaciones
+
+| Semana | Clase | Fecha | Tema | Notas de clase | Contenido | Observaciones |
+|---|---|---|---|---|---|---|
+| 11 | 21 | 13/10/2026 | Conjuntos - Parte 1 | Recursos [[link]](clase-12/) Manuscrito [[pdf]](clase-12/apuntes_clase12_annotated.pdf) | Conceptos: conjunto, elemento y pertenencia, representación por extensión y por comprensión, conjuntos numéricos, representación gráfica y diagramas de Venn | Revise los ejemplos resueltos en la sesión (vocales, enteros positivos impares, conjuntos numéricos) y practique con el taller de conjuntos [[taller]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller6/) |
+|   | 22 | 15/10/2026 | Conjuntos - Parte 2 | Recursos [[link]](clase-12/) Manuscrito [[pdf]](clase-12/apuntes_clase12_annotated.pdf) | Relaciones entre conjuntos (igualdad, subconjunto, subconjunto propio, conjuntos disyuntos) y su expresión en términos de subconjuntos, tipos de conjuntos, cardinalidad y conjunto potencia | Revise los ejemplos resueltos en la sesión (subconjuntos, conjuntos disyuntos, cardinalidad, conjunto potencia) y practique con el taller de conjuntos [[taller]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller6/). En el Caso 2 de subconjuntos y en la definición formal de subconjunto propio hubo errores en clase; los apuntes traen la versión corregida. Las demostraciones de igualdad y diferencia en términos de subconjuntos no entran al parcial |
+
 
 
 <!--
