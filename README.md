@@ -169,3 +169,4 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 * https://ada.educatic.unam.mx/course/view.php?id=91
 * https://cursos.virtual.uniandes.edu.co/pdf/curso.php?codigo=isis1104
 * https://blog.nekomath.com/
+* https://campusgrado.fi.uba.ar/course/view.php?id=62&section=0#tabs-tree-start
