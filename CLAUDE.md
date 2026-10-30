@@ -79,6 +79,17 @@ Slide figures may also live in a `clase-0N/images/` subfolder (as in `clase-10`)
 
 Directory names inconsistently use `clase-0N` (dash) at the top level, but files inside sometimes use `clase0N`/`claseN` (no dash) — follow whatever naming the existing files in that specific directory already use rather than imposing a single convention across the repo.
 
+## Exams (`parciales/`)
+
+`parciales/parcialN/` holds each exam's statement and solution as `discretas1_parcialN_2026-2.pdf` and `discretas1_parcialN_2026-2_sol.pdf`. `parciales/README.md` has a table (`#`, `Tema`, `Recursos` with `[[Enunciado]]` `[[Solución]]` links, `Valor`) with one row per published exam: parcial 1 (Lógica proposicional) and parcial 2 (Lógica cuantificacional) so far, each worth 20 % (4 parciales = 80 %, per `clase-01`; no exam document states the weight, so ask Tigarto if a later one differs). When an exam's solution is published, also add to the root `README.md`, after the line "El **parcial N** sera sobre…" and before that topic's `### Referencias`, a note in the same format as parcial 1's:
+
+```markdown
+> [!Note]  
+> La solución del [parcial N](parciales/parcialN/discretas1_parcialN_2026-2.pdf) puede ser consultada en el siguiente [[link]](parciales/parcialN/discretas1_parcialN_2026-2_sol.pdf)
+```
+
+The cronograma rows "Parcial N" with "(pendiente)" are in the commented-out plan block and are not edited.
+
 ## Moodle question bank (`banco_preguntas/`)
 
 `banco_preguntas/` holds a local backup of the course's Moodle (5.x) question banks, one Markdown file per topic (e.g. `modulo2_T05.md`, built from clases 7–9 for Quiz 5). It is listed in `.gitignore` and must never be committed or published. Each question is written from what was actually taught, citing its source class/section.

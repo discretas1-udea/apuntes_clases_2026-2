@@ -67,6 +67,9 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 
 El **parcial 2** sera sobre todas las clases de la tabla anterior, hasta la del 01/10/2026.
 
+> [!Note]  
+> La solución del [parcial 2](parciales/parcial2/discretas1_parcial2_2026-2.pdf) puede ser consultada en el siguiente [[link]](parciales/parcial2/discretas1_parcial2_2026-2_sol.pdf)
+
 ### Referencias
 
 A continuación se listan los recursos adicionales que pueden ser consultados para repasar para el parcial 2.
