@@ -1,0 +1,28 @@
+<mxfile host="drawio">
+  <diagram id="relacion_transitiva_V" name="V (relación &lt;=)">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Helvetica;fontSize=20;fontColor=#000000;labelPosition=center;align=center;verticalLabelPosition=top;verticalAlign=bottom;spacingBottom=2;" vertex="1" parent="1"><mxGeometry x="33" y="33" width="14" height="14" as="geometry" /></mxCell>
+        <mxCell id="n2" value="2" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Helvetica;fontSize=20;fontColor=#000000;labelPosition=center;align=center;verticalLabelPosition=top;verticalAlign=bottom;spacingBottom=2;" vertex="1" parent="1"><mxGeometry x="293" y="33" width="14" height="14" as="geometry" /></mxCell>
+        <mxCell id="n3" value="3" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Helvetica;fontSize=20;fontColor=#000000;labelPosition=center;align=center;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1"><mxGeometry x="33" y="293" width="14" height="14" as="geometry" /></mxCell>
+        <mxCell id="n4" value="4" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Helvetica;fontSize=20;fontColor=#000000;labelPosition=center;align=center;verticalLabelPosition=bottom;verticalAlign=top;spacingTop=2;" vertex="1" parent="1"><mxGeometry x="293" y="293" width="14" height="14" as="geometry" /></mxCell>
+        <!-- Arcos entre nodos distintos: (1,2), (1,3), (1,4), (2,3), (2,4), (3,4) -->
+        <mxCell id="e12" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="n1" target="n2"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e13" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="n1" target="n3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e14" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="n1" target="n4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e23" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="n2" target="n3"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e24" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="n2" target="n4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e34" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="n3" target="n4"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <!-- Lazos: (1,1), (2,2), (3,3), (4,4), hacia el exterior del cuadrado -->
+        <mxCell id="e11" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;curved=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n1" target="n1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-91" y="10" /><mxPoint x="-91" y="70" /></Array></mxGeometry></mxCell>
+        <mxCell id="e22" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n2" target="n2"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="431" y="10" /><mxPoint x="431" y="70" /></Array></mxGeometry></mxCell>
+        <mxCell id="e33" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;curved=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n3" target="n3"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-91" y="270" /><mxPoint x="-91" y="330" /></Array></mxGeometry></mxCell>
+        <mxCell id="e44" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;curved=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4" target="n4"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="431" y="270" /><mxPoint x="431" y="330" /></Array></mxGeometry></mxCell>
+        <!-- Nombre de la relación -->
+        <mxCell id="titulo" value="V" style="text;html=1;fontFamily=Helvetica;fontSize=22;fontStyle=2;fontColor=#000000;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="1"><mxGeometry x="150" y="340" width="40" height="30" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

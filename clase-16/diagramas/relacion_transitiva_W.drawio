@@ -1,0 +1,31 @@
+<mxfile host="drawio">
+  <diagram id="relacion_transitiva_W" name="W (relación {(3,4)})">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Nodos: punto negro con la etiqueta por fuera -->
+        <mxCell id="n1" value="1" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Helvetica;fontSize=20;fontColor=#000000;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="33" y="33" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="2" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Helvetica;fontSize=20;fontColor=#000000;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;spacingBottom=2;" vertex="1" parent="1">
+          <mxGeometry x="293" y="33" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="3" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Helvetica;fontSize=20;fontColor=#000000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="33" y="293" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="4" style="ellipse;aspect=fixed;fillColor=#000000;strokeColor=#000000;fontFamily=Helvetica;fontSize=20;fontColor=#000000;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;spacingTop=2;" vertex="1" parent="1">
+          <mxGeometry x="293" y="293" width="14" height="14" as="geometry" />
+        </mxCell>
+        <!-- Arcos: (3,4) -->
+        <mxCell id="e34" style="endArrow=classic;endFill=1;endSize=10;html=1;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Nombre de la relación -->
+        <mxCell id="titulo" value="W" style="text;html=1;fontFamily=Helvetica;fontSize=22;fontStyle=2;fontColor=#000000;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
