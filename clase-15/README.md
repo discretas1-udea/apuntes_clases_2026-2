@@ -283,10 +283,10 @@ Sean `A = {0, 1, 2, 3, 4}` (`|A| = 5`) y `B = {0, 1, 2, 3}` (`|B| = 4`), de modo
 
 | Relación | Pares ordenados | Matriz binaria `M_R` (filas `a = 0…4`) |
 |---|---|---|
-| 1. `a = b` | `{(0,0), (1,1), (2,2), (3,3)}` | `1000` · `0100` · `0010` · `0001` · `0000` |
-| 2. `a + b = 4` | `{(1,3), (2,2), (3,1), (4,0)}` | `0000` · `0001` · `0010` · `0100` · `1000` |
-| 3. `a > b` | `{(1,0), (2,0), (2,1), (3,0), (3,1), (3,2), (4,0), (4,1), (4,2), (4,3)}` | `0000` · `1000` · `1100` · `1110` · `1111` |
-| 4. `a \| b`, con `a ≠ 0` | `{(1,0), (1,1), (1,2), (1,3), (2,0), (2,2), (3,0), (3,3), (4,0)}` | `0000` · `1111` · `1010` · `1001` · `1000` |
+| 1. `a = b` | `{(0,0), (1,1), (2,2), (3,3)}` | <code>1 0 0 0</code><br><code>0 1 0 0</code><br><code>0 0 1 0</code><br><code>0 0 0 1</code><br><code>0 0 0 0</code> |
+| 2. `a + b = 4` | `{(1,3), (2,2), (3,1), (4,0)}` | <code>0 0 0 0</code><br><code>0 0 0 1</code><br><code>0 0 1 0</code><br><code>0 1 0 0</code><br><code>1 0 0 0</code> |
+| 3. `a > b` | `{(1,0), (2,0), (2,1), (3,0), (3,1), (3,2), (4,0), (4,1), (4,2), (4,3)}` | <code>0 0 0 0</code><br><code>1 0 0 0</code><br><code>1 1 0 0</code><br><code>1 1 1 0</code><br><code>1 1 1 1</code> |
+| 4. `a \| b`, con `a ≠ 0` | `{(1,0), (1,1), (1,2), (1,3), (2,0), (2,2), (3,0), (3,3), (4,0)}` | <code>0 0 0 0</code><br><code>1 1 1 1</code><br><code>1 0 1 0</code><br><code>1 0 0 1</code><br><code>1 0 0 0</code> |
 
 En la relación 4, el profesor escribió la condición como `b % a = 0`: `a` divide a `b` cuando el residuo de dividir `b` entre `a` es cero. La fila `a = 0` queda vacía por la condición `a ≠ 0`, y `(a, 0)` está para todo `a ≠ 0`, porque `0` es múltiplo de cualquier número.
 

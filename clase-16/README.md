@@ -295,12 +295,12 @@ En la tabla matricial y en la matriz binaria, **las filas corresponden al primer
 
 | Relación | Pares | Matriz binaria (filas `1…4`) |
 |---|---|---|
-| `R₁` | `{(2,2), (2,3), (2,4), (3,2), (3,3), (3,4)}` | `0000` · `0111` · `0111` · `0000` |
-| `R₂` | `{(1,1), (1,2), (2,1), (2,2), (3,3), (4,4)}` | `1100` · `1100` · `0010` · `0001` |
-| `R₃` | `{(2,4), (4,2)}` | `0000` · `0001` · `0000` · `0100` |
-| `R₄` | `{(1,2), (2,3), (3,4)}` | `0100` · `0010` · `0001` · `0000` |
-| `R₅` | `{(1,1), (2,2), (3,3), (4,4)}` | `1000` · `0100` · `0010` · `0001` |
-| `R₆` | `{(1,3), (1,4), (2,3), (2,4), (3,1), (3,4)}` | `0011` · `0011` · `1001` · `0000` |
+| `R₁` | `{(2,2), (2,3), (2,4), (3,2), (3,3), (3,4)}` | <code>0 0 0 0</code><br><code>0 1 1 1</code><br><code>0 1 1 1</code><br><code>0 0 0 0</code> |
+| `R₂` | `{(1,1), (1,2), (2,1), (2,2), (3,3), (4,4)}` | <code>1 1 0 0</code><br><code>1 1 0 0</code><br><code>0 0 1 0</code><br><code>0 0 0 1</code> |
+| `R₃` | `{(2,4), (4,2)}` | <code>0 0 0 0</code><br><code>0 0 0 1</code><br><code>0 0 0 0</code><br><code>0 1 0 0</code> |
+| `R₄` | `{(1,2), (2,3), (3,4)}` | <code>0 1 0 0</code><br><code>0 0 1 0</code><br><code>0 0 0 1</code><br><code>0 0 0 0</code> |
+| `R₅` | `{(1,1), (2,2), (3,3), (4,4)}` | <code>1 0 0 0</code><br><code>0 1 0 0</code><br><code>0 0 1 0</code><br><code>0 0 0 1</code> |
+| `R₆` | `{(1,3), (1,4), (2,3), (2,4), (3,1), (3,4)}` | <code>0 0 1 1</code><br><code>0 0 1 1</code><br><code>1 0 0 1</code><br><code>0 0 0 0</code> |
 
 En el manuscrito están las tres representaciones de cada relación. Por ejemplo, para `R₁` se mostró la cadena `(2,3), (3,4)`, cuyo atajo `(2,4)` está en `R₁`.
 
@@ -356,11 +356,33 @@ De las formas de representar una relación, se hace énfasis en dos: **matrices*
 
 **Ejemplo 1.** Sean `A = {1, 2, 3}`, `B = {1, 2}` y `R` la relación de `A` a `B` que contiene `(a, b)` si `a > b`. Con el orden numérico creciente:
 
-`R = {(2,1), (3,1), (3,2)}`, con `R ⊆ A × B`, y `M_R` = `00` · `10` · `11` (3 filas por 2 columnas).
+`R = {(2,1), (3,1), (3,2)}`, con `R ⊆ A × B`, y la matriz `M_R` (abajo) (3 filas por 2 columnas).
 
-En clase se agregó el caso contrario, una relación de `B` en `A`: `S ⊆ B × A`, `S = {(1,1), (2,2), (2,3)}`, con `M_S` = `100` · `011` (2 filas por 3 columnas). Si la relación es de `A` en `B`, la matriz tiene `|A|` filas y `|B|` columnas.
+```
+      1 2
+  1 [ 0 0 ]
+  2 [ 1 0 ]
+  3 [ 1 1 ]
+```
 
-**Ejemplo 2.** Sean `A = {a₁, a₂, a₃}` y `B = {b₁, b₂, b₃, b₄, b₅}`. ¿Qué pares están en la relación representada por `M_R` = `01000` · `10110` · `10101`? Como `R` está formada por los pares `(a_i, b_j)` con `m_ij = 1`:
+En clase se agregó el caso contrario, una relación de `B` en `A`: `S ⊆ B × A`, `S = {(1,1), (2,2), (2,3)}`, con la matriz `M_S` (abajo) (2 filas por 3 columnas). Si la relación es de `A` en `B`, la matriz tiene `|A|` filas y `|B|` columnas.
+
+```
+      1 2 3
+  1 [ 1 0 0 ]
+  2 [ 0 1 1 ]
+```
+
+**Ejemplo 2.** Sean `A = {a₁, a₂, a₃}` y `B = {b₁, b₂, b₃, b₄, b₅}`. ¿Qué pares están en la relación representada por la matriz `M_R` (abajo)?
+
+```
+       b₁ b₂ b₃ b₄ b₅
+  a₁ [ 0  1  0  0  0  ]
+  a₂ [ 1  0  1  1  0  ]
+  a₃ [ 1  0  1  0  1  ]
+```
+
+Como `R` está formada por los pares `(a_i, b_j)` con `m_ij = 1`:
 
 `R = {(a₁, b₂), (a₂, b₁), (a₂, b₃), (a₂, b₄), (a₃, b₁), (a₃, b₃), (a₃, b₅)}`
 
@@ -375,7 +397,14 @@ En clase se agregó el caso contrario, una relación de `B` en `A`: `S ⊆ B × 
 >
 > **Otro estudiante preguntó** si para la antisimetría tiene que haber un patrón `1`–`0` en las posiciones simétricas, o si `0`–`0` también sirve. El profesor respondió que `0`–`0` también es compatible con la antisimetría: lo que no puede haber, fuera de la diagonal, es un `1` en `(i, j)` y otro en `(j, i)`.
 
-**Ejemplo 3.** Suponga que la relación `R` en un conjunto está representada por `M_R` = `110` · `111` · `011`. ¿Es `R` reflexiva, simétrica y/o antisimétrica?
+**Ejemplo 3.** Suponga que la relación `R` en un conjunto está representada por la matriz `M_R` (abajo). ¿Es `R` reflexiva, simétrica y/o antisimétrica?
+
+```
+      1 2 3
+  1 [ 1 1 0 ]
+  2 [ 1 1 1 ]
+  3 [ 0 1 1 ]
+```
 
 Como todos los elementos de la diagonal son `1`, `R` es **reflexiva**. Como `M_R` es simétrica, `R` es **simétrica** y **no antisimétrica**, ya que tanto `m₁,₂` como `m₂,₁` son `1`.
 
@@ -402,14 +431,30 @@ Un **grafo dirigido**, o **dígrafo**, consiste en un conjunto `V` de vértices 
 
 En los Ejemplos 6 a 9, el dígrafo representa una relación `R` en `A = {a, b, c, d}`; determine las propiedades que cumple. Las matrices tienen filas y columnas en el orden `a, b, c, d`.
 
-**Ejemplo 6.** `R = {(a, a)}`, con `M_R` = `1000` · `0000` · `0000` · `0000`.
+**Ejemplo 6.** `R = {(a, a)}`, con la matriz `M_R` (abajo).
+
+```
+      a b c d
+  a [ 1 0 0 0 ]
+  b [ 0 0 0 0 ]
+  c [ 0 0 0 0 ]
+  d [ 0 0 0 0 ]
+```
 
 - Reflexividad: **No**, no todos los vértices tienen bucle.
 - Simetría: **Sí** (trivialmente), no hay arista de un vértice a otro.
 - Antisimetría: **Sí** (trivialmente), por la misma razón.
 - Transitividad: **Sí** (trivialmente), por la misma razón.
 
-**Ejemplo 7.** `R = {(a, b), (b, d), (d, b)}`, con `M_R` = `0100` · `0001` · `0000` · `0100`. Solución de la diapositiva (transcripción del manuscrito):
+**Ejemplo 7.** `R = {(a, b), (b, d), (d, b)}`, con la matriz `M_R` (abajo). Solución de la diapositiva (transcripción del manuscrito):
+
+```
+      a b c d
+  a [ 0 1 0 0 ]
+  b [ 0 0 0 1 ]
+  c [ 0 0 0 0 ]
+  d [ 0 1 0 0 ]
+```
 
 - Reflexividad: **No**, no hay bucles.
 - Simetría: **No**, hay una arista de `a` a `b`, pero no de `b` a `a`.
@@ -425,7 +470,15 @@ En los Ejemplos 6 a 9, el dígrafo representa una relación `R` en `A = {a, b, c
 > [!TIP]
 > Un contraejemplo solo prueba algo si sus pares están en la relación. Antes de citarlo, verifíquelo contra la lista de pares o la matriz: cada `1` de la cadena debe estar en `M_R` y el `1` del atajo debe faltar.
 
-**Ejemplo 8.** `R = {(a, b), (a, c), (c, b)}`, con `M_R` = `0110` · `0000` · `0100` · `0000`.
+**Ejemplo 8.** `R = {(a, b), (a, c), (c, b)}`, con la matriz `M_R` (abajo).
+
+```
+      a b c d
+  a [ 0 1 1 0 ]
+  b [ 0 0 0 0 ]
+  c [ 0 1 0 0 ]
+  d [ 0 0 0 0 ]
+```
 
 - Reflexividad: **No**, no hay bucles.
 - Simetría: **No**; por ejemplo, no hay arista de `c` a `a`.
@@ -434,7 +487,15 @@ En los Ejemplos 6 a 9, el dígrafo representa una relación `R` en `A = {a, b, c
 
 *Aclaración del apunte:* la diapositiva concluye "Transitividad: No, no hay arista de `a` a `b`", pero `(a, b)` sí está (primera fila de `M_R`). Se corrigió en este apunte.
 
-**Ejemplo 9.** `R = {(a, d), (b, c)}`, con `M_R` = `0001` · `0010` · `0000` · `0000`.
+**Ejemplo 9.** `R = {(a, d), (b, c)}`, con la matriz `M_R` (abajo).
+
+```
+      a b c d
+  a [ 0 0 0 1 ]
+  b [ 0 0 1 0 ]
+  c [ 0 0 0 0 ]
+  d [ 0 0 0 0 ]
+```
 
 - Reflexividad: **No**, no hay bucles.
 - Simetría: **No**; por ejemplo, no hay arista de `d` a `a`.
@@ -449,12 +510,12 @@ Se retoman las relaciones `R, S, T, U, V, W` de la [sección 2](#2-relaciones-de
 
 | Relación | Matriz binaria (filas `1…4`) |
 |---|---|
-| `R` | `1100` · `1100` · `0001` · `1001` |
-| `S` | `1100` · `1000` · `0000` · `0000` |
-| `T` | `1101` · `1100` · `0010` · `1001` |
-| `U` | `0000` · `1000` · `1100` · `1110` |
-| `V` | `1111` · `0111` · `0011` · `0001` |
-| `W` | `0000` · `0000` · `0001` · `0000` |
+| `R` | <code>1 1 0 0</code><br><code>1 1 0 0</code><br><code>0 0 0 1</code><br><code>1 0 0 1</code> |
+| `S` | <code>1 1 0 0</code><br><code>1 0 0 0</code><br><code>0 0 0 0</code><br><code>0 0 0 0</code> |
+| `T` | <code>1 1 0 1</code><br><code>1 1 0 0</code><br><code>0 0 1 0</code><br><code>1 0 0 1</code> |
+| `U` | <code>0 0 0 0</code><br><code>1 0 0 0</code><br><code>1 1 0 0</code><br><code>1 1 1 0</code> |
+| `V` | <code>1 1 1 1</code><br><code>0 1 1 1</code><br><code>0 0 1 1</code><br><code>0 0 0 1</code> |
+| `W` | <code>0 0 0 0</code><br><code>0 0 0 0</code><br><code>0 0 0 1</code><br><code>0 0 0 0</code> |
 
 Observe en las matrices lo visto en la sección 8: `T` y `V` tienen la diagonal llena de `1` (reflexivas); `S` y `T` son iguales a su reflejo respecto a la diagonal (simétricas); en `U`, `V` y `W` nunca hay `1` en dos posiciones simétricas fuera de la diagonal (antisimétricas).
 

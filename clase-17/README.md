@@ -62,7 +62,15 @@ La sesión del 05/11 repasó las representaciones y las propiedades con la relac
 
 Con `A = {1, 2, 3, 4}` y `T = {(1,1), (1,2), (1,4), (2,1), (2,2), (3,3), (4,1), (4,4)}` (la `T` de la [clase 16](../clase-16/)), cada par `(x, y) ∈ T` es una `X` en la fila `x`, columna `y` de la tabla matricial; un `1` en la matriz; y una flecha de `x` a `y` en el dígrafo.
 
-`M_T` = `1101` · `1100` · `0010` · `1001`
+`M_T`:
+
+```
+      1 2 3 4
+  1 [ 1 1 0 1 ]
+  2 [ 1 1 0 0 ]
+  3 [ 0 0 1 0 ]
+  4 [ 1 0 0 1 ]
+```
 
 Propiedades que se usarán en esta clase:
 
@@ -163,8 +171,23 @@ Basta encontrar un par de elementos distintos con "ida y vuelta" para que `R` no
 
 **Ejemplo de antisimetría** (Ejemplo 1 de la diapositiva). Sea `A = {0, 1, 2}` y las relaciones `R₁ = {(0,2), (1,2), (2,0)}` y `R₂ = {(0,0), (0,1), (0,2), (1,1), (1,2)}`. Represente el dígrafo de cada una y determine si es antisimétrica.
 
-- **`R₁`**: `(0,2) ∈ R₁` y `(2,0) ∈ R₁`, pero `0 ≠ 2`: hay ida y vuelta, así que `R₁` **no es antisimétrica**. En la matriz `M_R₁` = `001` · `001` · `100`, las entradas `(0,2)` y `(2,0)` valen 1 a la vez, fuera de la diagonal. En clase se anotó además que `R₁` es **no simétrica** (`(1,2)` sin `(2,1)`) y **no antisimétrica**.
-- **`R₂`**: `(0,1)` sin `(1,0)`, `(0,2)` sin `(2,0)`, `(1,2)` sin `(2,1)`: ningún par de elementos distintos tiene ida y vuelta, así que `R₂` **es antisimétrica**. Los lazos `(0,0)` y `(1,1)` no afectan la antisimetría. En la matriz `M_R₂` = `111` · `011` · `000`, fuera de la diagonal nunca hay dos entradas simétricas que valgan 1 a la vez.
+- **`R₁`**: `(0,2) ∈ R₁` y `(2,0) ∈ R₁`, pero `0 ≠ 2`: hay ida y vuelta, así que `R₁` **no es antisimétrica**. En la matriz `M_R₁` (abajo), las entradas `(0,2)` y `(2,0)` valen 1 a la vez, fuera de la diagonal. En clase se anotó además que `R₁` es **no simétrica** (`(1,2)` sin `(2,1)`) y **no antisimétrica**.
+
+  ```
+        0 1 2
+    0 [ 0 0 1 ]
+    1 [ 0 0 1 ]
+    2 [ 1 0 0 ]
+  ```
+
+- **`R₂`**: `(0,1)` sin `(1,0)`, `(0,2)` sin `(2,0)`, `(1,2)` sin `(2,1)`: ningún par de elementos distintos tiene ida y vuelta, así que `R₂` **es antisimétrica**. Los lazos `(0,0)` y `(1,1)` no afectan la antisimetría. En la matriz `M_R₂` (abajo), fuera de la diagonal nunca hay dos entradas simétricas que valgan 1 a la vez.
+
+  ```
+        0 1 2
+    0 [ 1 1 1 ]
+    1 [ 0 1 1 ]
+    2 [ 0 0 0 ]
+  ```
 
 ### 6. Relaciones de orden: definición
 
@@ -208,7 +231,14 @@ El símbolo `≼` representa cualquier orden parcial; `≤` se reserva para el o
 
 Sea `A = {1, 2, 3}`. Determine si `R₁ = {(1,1), (2,2), (3,3), (1,2), (1,3)}` es una relación de orden.
 
-`M_R₁` = `111` · `010` · `001`. En el dígrafo, cada vértice tiene su lazo y hay flechas `1 → 2` y `1 → 3`.
+La matriz `M_R₁` se muestra abajo. En el dígrafo, cada vértice tiene su lazo y hay flechas `1 → 2` y `1 → 3`.
+
+```
+      1 2 3
+  1 [ 1 1 1 ]
+  2 [ 0 1 0 ]
+  3 [ 0 0 1 ]
+```
 
 - **Reflexividad** (`∀x ∈ A, (x, x) ∈ R`): `(1,1)`, `(2,2)` y `(3,3)` están en `R₁`. ✅
 - **Antisimetría** (`∀x, y ∈ A, (x, y) ∈ R ∧ (y, x) ∈ R ⟹ x = y`): `(1,2) ∈ R₁` pero `(2,1) ∉ R₁`; `(1,3) ∈ R₁` pero `(3,1) ∉ R₁`. Como no hay pares `(x, y)` y `(y, x)` con `x ≠ y`, la relación es antisimétrica. ✅
