@@ -103,6 +103,33 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 | 14 | 27 | 03/11/2026 | Relaciones - Parte 2 | Recursos [[link]](clase-15/) Manuscrito [[pdf]](clase-15/apuntes_clase15_annotated.pdf) | Relación sobre un solo conjunto, dominio y rango, relación inversa, relación identidad; inicio de las propiedades de las relaciones (clase 16) | Revise los ejemplos 5 a 9 y practique con el taller de relaciones [[taller]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller7/). El parcial 3 y el supletorio del parcial 2 serán el sábado 14/11/2026 de 8:00 a 10:00; revise la solución del parcial 2 y esté pendiente del formulario de inscripción al supletorio |
 |   | 28 | 05/11/2026 | Relaciones - Parte 3 | Recursos [[link]](clase-16/) Manuscrito [[pdf]](clase-16/apuntes_clase16_annotated.pdf) | Propiedades de las relaciones (reflexividad, simetría, antisimetría, asimetría, transitividad y sus negaciones; vistas desde el 03/11), ejercicio de repaso R₁ a R₆, representación con matrices y dígrafos y lectura de las propiedades en ellas; inicio de las relaciones de orden (clase 17 [[link]](clase-17/)) | Complete el análisis de R₃ a R₆, repase los ejemplos de dígrafos y practique con el taller de relaciones [[taller]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller7/). Quienes presenten el supletorio del parcial 2 deben diligenciar el formulario del foro antes del fin de semana |
 
+El **parcial 3** (sábado 14/11/2026, 8:00–10:00) sera sobre todas las clases de la tabla anterior y la del 10/11/2026 (relaciones de orden y diagramas de Hasse). No incluye los elementos extremos (máximos, mínimos, maximales, minimales) ni las cotas.
+
+### Referencias
+
+A continuación se listan los recursos adicionales que pueden ser consultados para repasar para el parcial 3.
+
+1. **Notas de clase**: Tema 3: Conjuntos y Relaciones [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod3/)
+2. **Libros**: [[link]](https://github.com/discretas1-udea/apuntes_clases/tree/main/libros/discretas)
+3. **Diapositivas originales del curso**:
+   * **Clase 8** - Teoría de conjuntos [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase8.pdf)
+   * **Clase 9** - Funciones (n-tuplas y producto cartesiano) [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase9.pdf)
+   * **Clase 10** - Relaciones [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase10.pdf)
+   * **Clase 11** - Relaciones de orden [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase11.pdf)
+4. **Recursos para repasar**:
+   * **Formulas parcial 3**: [[formulas]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/formulas_parcial3.pdf)
+   * **Parciales viejos**: 
+     * **Semestre 2025/1**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial3_2025-1.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial3_2025-1_sol.pdf)
+     * **Semestre 2025/2**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial3_2025-2.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial3_2025-2_sol.pdf)
+     * **Semestre 2026/1**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial3_2026-1.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial3_2026-1_sol.pdf)
+   * **Talleres de repaso - Parcial 3**:
+     * **Taller 6** - Conjuntos: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller6/)
+     * **Taller 7** - Relaciones: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller7/)
+     * **Taller 8** - Órdenes parciales: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/resources/talleres/taller8/)
+
+> [!Note]
+> En las diapositivas de la clase 9 solo entran las n-tuplas y el producto cartesiano (las funciones se profundizan en Cálculo), y de la clase 11 no entran los elementos extremos. Los parciales viejos y los talleres pueden incluir esos temas.
+
 
 
 <!--
