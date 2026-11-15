@@ -98,7 +98,7 @@ Directory names inconsistently use `clase-0N` (dash) at the top level, but files
 
 ## Exams (`parciales/`)
 
-`parciales/parcialN/` holds each exam's statement and solution as `discretas1_parcialN_2026-2.pdf` and `discretas1_parcialN_2026-2_sol.pdf`. `parciales/README.md` has a table (`#`, `Tema`, `Recursos` with `[[Enunciado]]` `[[Solución]]` links, `Valor`) with one row per published exam: parcial 1 (Lógica proposicional) and parcial 2 (Lógica cuantificacional) so far, each worth 20 % (4 parciales = 80 %, per `clase-01`; no exam document states the weight, so ask Tigarto if a later one differs). When an exam's solution is published, also add to the root `README.md`, after the line "El **parcial N** sera sobre…" and before that topic's `### Referencias`, a note in the same format as parcial 1's:
+`parciales/parcialN/` holds each exam's statement and solution as `discretas1_parcialN_2026-2.pdf` and `discretas1_parcialN_2026-2_sol.pdf`. `parciales/README.md` has a table (`#`, `Tema`, `Recursos` with `[[Enunciado]]` `[[Solución]]` links, `Valor`) with one row per published exam: parcial 1 (Lógica proposicional), parcial 2 (Lógica cuantificacional) and parcial 3 (Conjuntos y relaciones, 14/11/2026) so far, each worth 20 % (4 parciales = 80 %, per `clase-01`; no exam document states the weight, so ask Tigarto if a later one differs). When an exam's solution is published, also add to the root `README.md`, after the line "El **parcial N** sera sobre…" and before that topic's `### Referencias`, a note in the same format as parcial 1's:
 
 ```markdown
 > [!Note]  

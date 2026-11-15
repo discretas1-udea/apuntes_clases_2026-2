@@ -106,6 +106,9 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 
 El **parcial 3** (sábado 14/11/2026, 8:00–10:00) sera sobre todas las clases de la tabla anterior y la del 10/11/2026 (relaciones de orden y diagramas de Hasse). No incluye los elementos extremos (máximos, mínimos, maximales, minimales) ni las cotas.
 
+> [!Note]  
+> La solución del [parcial 3](parciales/parcial3/discretas1_parcial3_2026-2.pdf) puede ser consultada en el siguiente [[link]](parciales/parcial3/discretas1_parcial3_2026-2_sol.pdf)
+
 ### Referencias
 
 A continuación se listan los recursos adicionales que pueden ser consultados para repasar para el parcial 3.
