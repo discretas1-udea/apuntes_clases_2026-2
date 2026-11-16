@@ -15,7 +15,7 @@ Es el mismo circuito del *Ejercicio tipo parcial* de la [clase 19](../clase19.pd
 | Archivo | Contenido |
 |---|---|
 | [`circuito1.circ`](./circuito1.circ) | Circuito del enunciado, con entradas `x`, `y`, `z` y salida `f`: `f = y + ((x + y')' + x + z)'` |
-| [`circuito1_simplificado.circ`](./circuito1_simplificado.circ) | Pensado para el circuito simplificado de la solución, `f = y + x'·z'` (ver la advertencia). |
+| [`circuito1_simplificado.circ`](./circuito1_simplificado.circ) | Circuito simplificado de la solución, `f = y + x'·z'`: dos NOT, una AND y una OR. |
 
 Tabla de verdad, la misma para la versión original y la simplificada:
 
@@ -30,10 +30,12 @@ Tabla de verdad, la misma para la versión original y la simplificada:
 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 1 |
 
-> [!WARNING]
-> **Pendiente de corrección.** Hoy `circuito1_simplificado.circ` contiene el mismo circuito que `circuito1.circ` (cuatro OR y tres NOT), no la versión simplificada. El circuito simplificado de la solución usa una sola OR, una AND y dos NOT: `f = y + x'·z'`.
+**Cómo comprobarlo:**
 
-**Cómo comprobarlo:** abra `circuito1.circ`, recorra las ocho combinaciones de `x`, `y`, `z` con la herramienta de la mano y compare con la tabla. Luego use **Proyecto → Analizar circuito → Minimizado**: Logisim propone una expresión simplificada que debe ser equivalente a `y + x'·z'`.
+1. Abra los dos archivos y recorra las ocho combinaciones de `x`, `y`, `z` con la herramienta de la mano. Los dos circuitos dan siempre la misma salida: simplificar cambia el circuito (de siete compuertas a cuatro), no la función.
+2. En `circuito1.circ`, use **Proyecto → Analizar circuito → Minimizado**: Logisim propone una expresión simplificada que debe ser equivalente a `y + x'·z'`.
+
+En el circuito simplificado, el cable de `y` cruza el de `x'` sin un punto de unión: según la convención de las diapositivas, esos cables no se tocan.
 
 ## Punto 2 — Alarma activa en BAJO
 

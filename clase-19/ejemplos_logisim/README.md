@@ -76,7 +76,9 @@ Este recorrido usa [`circuitos_logicos/circuito_ejemplo1a.circ`](./circuitos_log
 
 **Paso 1 — Abrir el archivo.** En Logisim-evolution use **Archivo → Abrir…** (`Ctrl+O`) y elija el `.circ`. También puede arrastrar el archivo sobre la ventana del programa.
 
-Como el archivo es de la versión original, Logisim-evolution lo abre en *modo de compatibilidad* y puede mostrar un aviso que dice que el archivo se creó con el Logisim original. Es normal: acéptelo y continúe.
+Como el archivo es de la versión original, Logisim-evolution lo abre en *modo de compatibilidad* y puede mostrar este aviso. El aviso dice, en inglés, que el archivo se creó con el Logisim original y que algunos nombres podrían ajustarse. Es normal: haga clic en **Aceptar** y continúe.
+
+![Aviso de modo de compatibilidad al abrir un archivo del Logisim original](../images/logisim_00_aviso_compatibilidad.png)
 
 Al abrirlo verá el circuito con todas las entradas en 0. Para verlo más grande, use los botones de zoom de la esquina inferior izquierda (en las capturas está en **×2**).
 
@@ -146,20 +148,11 @@ Las diapositivas de las págs. 32–36 (*Ejemplos – Simulaciones*) muestran ca
 | [`circuito_ejemplo1a.circ`](./circuitos_logicos/circuito_ejemplo1a.circ) | 1 (págs. 20, 28, 32) | `R = ¬P ∧ Q` | Con `P = 0`, `Q = 1` se obtiene `R = 1` (ver la [sección 4](#4-ejemplo-guiado-el-ejemplo-1-de-la-clase)). | Sí |
 | [`circuito_ejemplo1b.circ`](./circuitos_logicos/circuito_ejemplo1b.circ) | 1 (págs. 20, 28, 32) | `S = ¬(P ∨ Q) ∧ R` | Con `P = 1`, `Q = 0`, `R = 1` se obtiene `S = 0`. La única combinación con `S = 1` es `P = 0`, `Q = 0`, `R = 1`. | Sí |
 | [`circuito_ejemplo2.circ`](./circuitos_logicos/circuito_ejemplo2.circ) | 2 (págs. 22, 28, 33) | `R = P ∨ ¬Q` | La tabla de la pág. 28: `R = 0` solo cuando `P = 0` y `Q = 1`. | Sí |
-| [`circuito_ejemplo3a.circ`](./circuitos_logicos/circuito_ejemplo3a.circ) | 3 (págs. 23, 29, 34) | `S = (P + Q)·(P·Q)'` | Vale 1 cuando exactamente una de las dos entradas vale 1. | Sí |
+| [`circuito_ejemplo3a.circ`](./circuitos_logicos/circuito_ejemplo3a.circ) | 3 (págs. 23, 29, 34) | `(P + Q)·(P·Q)'` (en el archivo la salida se llama `R`) | Vale 1 cuando exactamente una de las dos entradas vale 1. | Sí |
 | [`circuito_ejemplo3b.circ`](./circuitos_logicos/circuito_ejemplo3b.circ) | 3 (págs. 24, 29, 34) | `S = P·Q·R'` | Vale 1 solo con `P = 1`, `Q = 1`, `R = 0`. | Sí |
 | [`circuito_ejemplo4a.circ`](./circuitos_logicos/circuito_ejemplo4a.circ) | 4 (págs. 25, 30, 35) | `(¬P ∧ Q) ∨ ¬Q` | Vale 0 solo con `P = 1`, `Q = 1`. | No |
-| [`circuito_ejemplo4b.circ`](./circuitos_logicos/circuito_ejemplo4b.circ) | 4 (págs. 26, 30, 35) | `((P ∧ Q) ∧ (R ∧ S)) ∧ T` | Vale 1 solo si las cinco entradas valen 1. | No |
+| [`circuito_ejemplo4b.circ`](./circuitos_logicos/circuito_ejemplo4b.circ) | 4 (págs. 26, 30, 35) | `U = ((P ∧ Q) ∧ (R ∧ S)) ∧ T` | Vale 1 solo si las cinco entradas valen 1. | No |
 | [`circuito_ejemplo5.circ`](./circuitos_logicos/circuito_ejemplo5.circ) | 5 (págs. 27, 31, 36) | `S = PQR + PQ'R + PQ'R'` | La tabla de la pág. 27: `S = 1` en las filas `111`, `101` y `100`. | No |
-
-> [!WARNING]
-> **Pendiente de corrección en los archivos.** Hoy tres archivos no contienen el circuito que indica la tabla:
->
-> - `circuito_ejemplo3a.circ` es una copia de `circuito_ejemplo2.circ`.
-> - El circuito `S = (P + Q)·(P·Q)'` está guardado en `circuito_ejemplo3b.circ`.
-> - El circuito `S = P·Q·R'` del Ejemplo 3 y el AND de cinco entradas del Ejemplo 4 no tienen todavía su archivo: `circuito_ejemplo4b.circ` es una copia de `circuito_ejemplo4a.circ`.
->
-> Mientras se corrigen, guíese por las diapositivas de las págs. 34 y 35.
 
 *Aclaración del apunte:* en la pág. 20, el segundo circuito del Ejemplo 1 dice "P = 1, Q = 0 y Q = 1". La tercera entrada es `R`: la solución de la pág. 28 usa `R = 1`.
 

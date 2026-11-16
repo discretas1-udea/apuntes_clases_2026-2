@@ -53,64 +53,44 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(260,330)" to="(320,330)"/>
-    <wire from="(150,260)" to="(180,260)"/>
-    <wire from="(180,260)" to="(210,260)"/>
-    <wire from="(180,260)" to="(180,420)"/>
-    <wire from="(370,350)" to="(460,350)"/>
-    <wire from="(690,400)" to="(740,400)"/>
-    <wire from="(460,320)" to="(490,320)"/>
-    <wire from="(460,280)" to="(490,280)"/>
-    <wire from="(620,380)" to="(640,380)"/>
-    <wire from="(600,300)" to="(620,300)"/>
-    <wire from="(260,220)" to="(290,220)"/>
-    <wire from="(540,300)" to="(570,300)"/>
-    <wire from="(260,220)" to="(260,330)"/>
-    <wire from="(340,240)" to="(390,240)"/>
-    <wire from="(240,260)" to="(290,260)"/>
-    <wire from="(460,240)" to="(460,280)"/>
-    <wire from="(150,220)" to="(260,220)"/>
-    <wire from="(150,370)" to="(320,370)"/>
-    <wire from="(180,420)" to="(640,420)"/>
-    <wire from="(460,320)" to="(460,350)"/>
-    <wire from="(620,300)" to="(620,380)"/>
-    <wire from="(420,240)" to="(460,240)"/>
-    <comp lib="1" loc="(540,300)" name="OR Gate">
-      <a name="inputs" val="2"/>
+    <wire from="(150,180)" to="(210,180)"/>
+    <wire from="(150,300)" to="(210,300)"/>
+    <wire from="(240,180)" to="(280,180)"/>
+    <wire from="(280,180)" to="(280,260)"/>
+    <wire from="(280,260)" to="(300,260)"/>
+    <wire from="(240,300)" to="(300,300)"/>
+    <wire from="(150,240)" to="(400,240)"/>
+    <wire from="(350,280)" to="(400,280)"/>
+    <wire from="(450,260)" to="(500,260)"/>
+    <comp lib="0" loc="(150,180)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="x"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
     </comp>
-    <comp lib="1" loc="(370,350)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(150,260)" name="Pin">
+    <comp lib="0" loc="(150,240)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="y"/>
       <a name="labelfont" val="SansSerif bold 16"/>
     </comp>
-    <comp lib="1" loc="(600,300)" name="NOT Gate"/>
-    <comp lib="0" loc="(740,400)" name="Pin">
+    <comp lib="0" loc="(150,300)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="z"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="1" loc="(240,180)" name="NOT Gate"/>
+    <comp lib="1" loc="(240,300)" name="NOT Gate"/>
+    <comp lib="1" loc="(350,280)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(450,260)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(500,260)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="f"/>
       <a name="labelloc" val="east"/>
       <a name="labelfont" val="SansSerif bold 16"/>
     </comp>
-    <comp lib="0" loc="(150,370)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="z"/>
-      <a name="labelfont" val="SansSerif bold 16"/>
-    </comp>
-    <comp lib="1" loc="(340,240)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(240,260)" name="NOT Gate"/>
-    <comp lib="0" loc="(150,220)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="x"/>
-      <a name="labelfont" val="SansSerif bold 16"/>
-    </comp>
-    <comp lib="1" loc="(690,400)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(420,240)" name="NOT Gate"/>
   </circuit>
 </project>

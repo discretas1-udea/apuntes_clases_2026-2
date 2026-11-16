@@ -59,77 +59,76 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(290,280)" to="(340,280)"/>
-    <wire from="(520,240)" to="(560,240)"/>
-    <wire from="(430,260)" to="(430,280)"/>
-    <wire from="(430,200)" to="(430,220)"/>
-    <wire from="(220,180)" to="(220,260)"/>
-    <wire from="(210,220)" to="(210,300)"/>
-    <wire from="(430,260)" to="(470,260)"/>
-    <wire from="(430,220)" to="(470,220)"/>
-    <wire from="(560,200)" to="(560,240)"/>
-    <wire from="(160,180)" to="(190,180)"/>
-    <wire from="(190,180)" to="(220,180)"/>
-    <wire from="(160,220)" to="(190,220)"/>
-    <wire from="(210,300)" to="(240,300)"/>
-    <wire from="(210,220)" to="(240,220)"/>
-    <wire from="(400,280)" to="(430,280)"/>
-    <wire from="(340,280)" to="(370,280)"/>
-    <wire from="(560,240)" to="(590,240)"/>
-    <wire from="(190,140)" to="(190,180)"/>
-    <wire from="(190,220)" to="(190,260)"/>
-    <wire from="(340,280)" to="(340,320)"/>
-    <wire from="(360,160)" to="(360,200)"/>
-    <wire from="(190,220)" to="(210,220)"/>
-    <wire from="(430,280)" to="(430,320)"/>
-    <wire from="(220,260)" to="(240,260)"/>
-    <wire from="(220,180)" to="(240,180)"/>
-    <wire from="(420,320)" to="(430,320)"/>
-    <wire from="(330,320)" to="(340,320)"/>
-    <wire from="(350,160)" to="(360,160)"/>
-    <wire from="(180,140)" to="(190,140)"/>
-    <wire from="(180,260)" to="(190,260)"/>
-    <wire from="(550,200)" to="(560,200)"/>
-    <wire from="(290,200)" to="(360,200)"/>
-    <wire from="(360,200)" to="(430,200)"/>
-    <comp lib="0" loc="(420,320)" name="Probe"/>
-    <comp lib="0" loc="(350,160)" name="Probe"/>
-    <comp lib="1" loc="(290,200)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(290,280)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(520,240)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(400,280)" name="NOT Gate"/>
-    <comp lib="0" loc="(180,260)" name="Probe"/>
-    <comp lib="0" loc="(330,320)" name="Probe"/>
-    <comp lib="6" loc="(120,185)" name="Text">
-      <a name="text" val="P"/>
-      <a name="font" val="SansSerif bold 16"/>
-    </comp>
-    <comp lib="6" loc="(624,243)" name="Text">
-      <a name="text" val="R"/>
-      <a name="font" val="SansSerif bold 16"/>
+    <wire from="(160,180)" to="(200,180)"/>
+    <wire from="(200,180)" to="(240,180)"/>
+    <wire from="(160,220)" to="(200,220)"/>
+    <wire from="(200,220)" to="(240,220)"/>
+    <wire from="(160,300)" to="(200,300)"/>
+    <wire from="(200,300)" to="(240,300)"/>
+    <wire from="(290,200)" to="(310,200)"/>
+    <wire from="(310,200)" to="(330,200)"/>
+    <wire from="(330,200)" to="(330,220)"/>
+    <wire from="(330,220)" to="(370,220)"/>
+    <wire from="(270,300)" to="(300,300)"/>
+    <wire from="(300,300)" to="(330,300)"/>
+    <wire from="(330,300)" to="(330,260)"/>
+    <wire from="(330,260)" to="(370,260)"/>
+    <wire from="(420,240)" to="(450,240)"/>
+    <wire from="(450,240)" to="(470,240)"/>
+    <wire from="(200,180)" to="(200,140)"/>
+    <wire from="(200,140)" to="(190,140)"/>
+    <wire from="(200,220)" to="(200,260)"/>
+    <wire from="(200,260)" to="(190,260)"/>
+    <wire from="(200,300)" to="(200,340)"/>
+    <wire from="(200,340)" to="(190,340)"/>
+    <wire from="(310,200)" to="(310,160)"/>
+    <wire from="(310,160)" to="(300,160)"/>
+    <wire from="(300,300)" to="(300,340)"/>
+    <wire from="(300,340)" to="(290,340)"/>
+    <wire from="(450,240)" to="(450,200)"/>
+    <wire from="(450,200)" to="(440,200)"/>
+    <comp lib="0" loc="(160,180)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(160,220)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(550,200)" name="Probe"/>
-    <comp lib="0" loc="(180,140)" name="Probe"/>
-    <comp lib="6" loc="(119,226)" name="Text">
-      <a name="text" val="Q"/>
-      <a name="font" val="SansSerif bold 16"/>
+    <comp lib="0" loc="(160,300)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(590,240)" name="Pin">
+    <comp lib="1" loc="(290,200)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(270,300)" name="NOT Gate"/>
+    <comp lib="1" loc="(420,240)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(470,240)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(160,180)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="6" loc="(120,185)" name="Text">
+      <a name="text" val="P"/>
+      <a name="font" val="SansSerif bold 16"/>
     </comp>
+    <comp lib="6" loc="(120,225)" name="Text">
+      <a name="text" val="Q"/>
+      <a name="font" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="6" loc="(120,305)" name="Text">
+      <a name="text" val="R"/>
+      <a name="font" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="6" loc="(504,243)" name="Text">
+      <a name="text" val="S"/>
+      <a name="font" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(190,140)" name="Probe"/>
+    <comp lib="0" loc="(190,260)" name="Probe"/>
+    <comp lib="0" loc="(190,340)" name="Probe"/>
+    <comp lib="0" loc="(300,160)" name="Probe"/>
+    <comp lib="0" loc="(290,340)" name="Probe"/>
+    <comp lib="0" loc="(440,200)" name="Probe"/>
   </circuit>
 </project>
