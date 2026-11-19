@@ -134,6 +134,14 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 > [!Note]
 > En las diapositivas de la clase 9 solo entran las n-tuplas y el producto cartesiano (las funciones se profundizan en Cálculo), y de la clase 11 no entran los elementos extremos. Los parciales viejos y los talleres pueden incluir esos temas.
 
+## Tema 4 - Álgebra de Boole
+
+| Semana | Clase | Fecha | Tema | Notas de clase | Contenido | Observaciones |
+|---|---|---|---|---|---|---|
+| 15 | 30 | 12/11/2026 | Sistemas numéricos - Parte 1 | Recursos [[link]](clase-18/) Manuscrito [[pdf]](clase-18/clase18_annotated.pdf) | Representación de la información (niveles de voltaje y señal binaria), notación posicional, sistemas decimal, binario, octal y hexadecimal, dígitos válidos, conversión entre bases: puente universal, expansión polinómica y divisiones sucesivas | Revise los ejemplos resueltos en la sesión (`6A₁₆` a base 4, `3B7₁₆` a base 10, `150₁₀` a base 3 y a base 7, `42₅` a base 9 y a base 2, los números del 0 al 15) y el video sobre el código binario [[video]](https://ed.ted.com/lessons/how-exactly-does-binary-code-work-jose-americo-n-l-f-freitas). La conversión de la parte fraccionaria desde base 10 no hace parte del curso |
+| 16 | 31 | 17/11/2026 | Sistemas numéricos - Parte 2 / Circuitos lógicos - Parte 1 | Recursos [[link]](clase-18/) Manuscrito [[pdf]](clase-18/clase18_annotated.pdf) | Atajo directo entre binario, octal y hexadecimal por agrupación de bits; inicio de los circuitos lógicos (clase 19 [[link]](clase-19/)): Boole y Shannon, analogía entre proposiciones e interruptores (serie = AND, paralelo = OR), caja negra y tabla de entrada/salida, sumador completo | Aprenda de memoria las tablas octal–binario y hexadecimal–binario y repase los ejemplos de conversión directa. Instale Logisim-evolution con la guía de la clase 19 [[guía]](clase-19/ejemplos_logisim/) |
+|   | 32 | 19/11/2026 | Circuitos lógicos - Parte 2 | Recursos [[link]](clase-19/) Manuscrito [[pdf]](clase-19/clase19_annotated.pdf) | Compuertas NOT, AND, OR, NOR, NAND, XOR y XNOR; variables y expresiones booleanas; salida y tabla de entrada/salida de un circuito, expresión booleana de un circuito y circuito de una expresión, diseño a partir de una tabla con minitérminos; ejercicio tipo parcial | Revise los ejemplos 1 a 5 y simúlelos en Logisim-evolution [[guía]](clase-19/ejemplos_logisim/). Complete la tabla de verdad del ejercicio tipo parcial y compárela con las simulaciones del parcial 4 de 2025-2 [[link]](clase-19/simulaciones_parcial4_2025-2/). En el ejemplo 1b y en el ejercicio tipo parcial hubo errores en la expresión booleana; los apuntes traen la versión corregida |
+
 
 
 <!--
