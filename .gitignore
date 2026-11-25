@@ -1,2 +1,5 @@
 # Banco de preguntas de Moodle (respaldo local, no se publica en el repositorio)
 banco_preguntas/
+
+# Scripts generadores locales (no se publican en el repositorio)
+herramientas/
