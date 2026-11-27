@@ -144,6 +144,28 @@ A continuación se listan los recursos adicionales que pueden ser consultados pa
 | 17 | 33 | 24/11/2026 | Álgebra booleana - Parte 1 | Recursos [[link]](clase-20/) Manuscrito [[pdf]](clase-20/clase20_annotated.pdf) | Conjunto `B = {0, 1}` con suma (OR), producto (AND) y complemento (NOT); correspondencia con la lógica proposicional; funciones booleanas de grado n, dominio `Bⁿ` y codominio `B`; tabla de verdad con índice y columnas intermedias, diagrama de flechas, circuito y cubo; definición recursiva de expresión booleana; igualdad de funciones y expresiones equivalentes; operaciones con funciones | Repase los ejemplos 1 y 2 y simule sus circuitos en Logisim-evolution [[link]](clase-20/ejemplos_logisim/). Video de la clase sobre AND, OR y NOT [[video]](https://www.youtube.com/watch?v=dkocGur84i8) |
 |   | 34 | 26/11/2026 | Álgebra booleana - Parte 2 / Formas canónicas y diseño de circuitos | Recursos [[link]](clase-20/) Manuscrito [[pdf]](clase-20/clase20_annotated.pdf) | Número de funciones de grado n, las 16 funciones de grado 2, identidades del álgebra booleana, principio de dualidad, demostración y simplificación con identidades, verificación con tablas de verdad, definición formal de álgebra booleana y su correspondencia con la lógica y los conjuntos; formas canónicas (clase 21 [[link]](clase-21/)): mintérminos y maxtérminos, SOP canónica (`∑m`) y POS canónica (`∏M`), conversión entre ellas, simplificación con términos adyacentes y proceso de diseño de circuitos (problema de los tres tanques) | Repase las demostraciones de los ejemplos 5 a 8 de la clase 20 con la tabla de identidades. Trabaje la guía de diseño de circuitos [[guía]](clase-21/guia_diseno_circuitos/). En el ejemplo 1c de la clase 21 la POS se escribió con `∑`; lo correcto es `∏M(0)` |
 
+El **parcial 4** (martes 1/12/2026, virtual en Moodle, a la hora de la clase) sera sobre todas las clases de la tabla anterior. No incluye la conversión de la parte fraccionaria desde base 10 ni la suma binaria (que solo se mencionó).
+
+### Referencias
+
+A continuación se listan los recursos adicionales que pueden ser consultados para repasar para el parcial 4.
+
+1. **Notas de clase**: Tema 4: Álgebra de Boole [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/lessons/mod4/)
+2. **Libros**: [[link]](https://github.com/discretas1-udea/apuntes_clases/tree/main/libros/discretas)
+3. **Diapositivas originales del curso**:
+   * **Clase 12** - Álgebra de Boole (incluye circuitos lógicos) [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase12.pdf)
+   * **Clase 13** - Sistemas numéricos [[link]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/slides/clase13.pdf)
+4. **Recursos para repasar**:
+   * **Formulas parcial 4**: [[formulas]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/formulas_parcial4.pdf)
+   * **Parciales viejos**:
+     * **Semestre 2025/2**: [[enunciado]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial4_2025-2.pdf) [[solución]](https://discretas1-udea.github.io/discretas1-udea-20262/assets/exams/discretas1_parcial4_2025-2_sol.pdf) [[simulaciones en Logisim]](clase-19/simulaciones_parcial4_2025-2/)
+   * **Diseño de circuitos**:
+     * **Guía de diseño de circuitos** (detector de primos y luz del vehículo, con ejercicios propuestos): [[guía]](clase-21/guia_diseno_circuitos/)
+     * **Taller 2 de 2025-1** - Álgebra booleana: [[enunciado]](clase-21/taller-02_algebra_booleana.pdf)
+
+> [!Note]
+> Las diapositivas originales de las clases 12 y 13 y el parcial viejo pueden incluir temas que no se vieron este semestre (por ejemplo, la suma binaria).
+
 
 
 <!--
